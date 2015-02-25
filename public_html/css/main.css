@@ -1,0 +1,231 @@
+root { 
+    display: block;
+}
+
+html{
+    height: 100%;
+}
+
+header{
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    height: 150px;
+    width: 100%;
+    min-width: 960px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+header:hover{
+    box-shadow: 0px 2px 10px cyan;
+}
+
+header.stepOne {
+    height: 100px;
+}
+
+header.stepTwo {
+    height: 50px;
+}
+
+#navLinks{
+    position: relative;
+    width: 960px;
+    min-width: 960px;
+    height: 100%;
+    margin: 0px auto 0px auto;
+}
+
+#navAbout{
+    background: url("../images/btn_nav_about.png");
+    display: block;
+    position: relative;
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#navAbout:hover {
+    background-position: 0px -50px;
+}
+
+#navAbout:active {
+    background-position: 0px 0px;
+}
+
+#navGame{
+    background: url("../images/btn_nav_games.png");
+    display: block;
+    position: relative;
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#navGame:hover {
+    background-position: 0px -50px;
+}
+
+#navGame:active {
+    background-position: 0px 0px;
+}
+
+#navLogo{
+    background: url("../images/nav_logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    position: relative;
+    width: 240px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#navLogo.stepOne{
+    background-size: 75%;
+    height: 75px;
+}
+
+#navLogo.stepTwo{
+    background-size: 50%;
+    height: 50px;
+}
+
+#navVisual{
+    background: url("../images/btn_nav_visual.png");
+    display: block;
+    position: relative;
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#navVisual:hover {
+    background-position: 0px -50px;
+}
+
+#navVisual:active {
+    background-position: 0px 0px;
+}
+
+#navContact{
+    background: url("../images/btn_nav_contact.png");
+    display: block;
+    position: relative;
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#navContact:hover {
+    background-position: 0px -50px;
+}
+
+#navContact:active {
+    background-position: 0px 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    min-height: 100%;
+    background-color: darkgrey;
+}
+
+#push{
+    height: 200px;
+}
+
+footer {
+    background-color: black;
+    position: relative;
+    clear: both;
+    height: 200px;
+    width: auto;
+    min-width: 960px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+footer:hover{
+    box-shadow: 0px -2px 10px magenta;
+}
+
+#footerInfo{
+    position: relative;
+    width: 960px;
+    min-width: 960px;
+    height: 100%;
+    margin: 0px auto 0px auto;
+}
+
+.footerSections{
+    position: relative;
+    float: left;
+    width: 210px;
+    margin: 10px 10px 0px 0px;
+    color: white;
+    overflow: hidden;
+}
+
+.footerLinks{
+    position: relative;
+    margin-bottom: 10px;
+    height: 25px;
+    overflow: hidden;
+    line-height: 23px;
+}
+
+.footerLinks:hover{
+    height: 100%;
+}
+
+.footerLinks p{
+    margin: 0px;
+    padding: 0px;
+    color: lightgrey;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.footerLinks:hover p{
+    margin-left: 5px;
+    color: white;
+}
+
+.footerLinks:hover p.gameDesign{
+    text-shadow: 0px 0px 10px cyan;
+}
+
+.footerLinks:hover p.visualMedia{
+    text-shadow: 0px 0px 10px magenta;
+}
+
+#footerContact{
+    position: relative;
+    float: left;
+    height: 180px;
+    width: 300px;
+    margin-top: 10px;
+    color: lightgrey;
+}

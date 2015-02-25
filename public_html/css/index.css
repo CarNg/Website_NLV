@@ -1,0 +1,75 @@
+#banners{
+    position: static;
+    margin: 165px auto -200px auto;
+    width: 960px;
+    height: auto;
+    min-height: 100%;
+}
+
+#bannerAnalog{
+    margin-bottom: 10px;
+    height: 180px;
+    width: 960px;
+    background-color: cyan;
+    box-shadow:none;
+    transition: height 0.3s ease;
+}
+
+#bannerAnalog:hover, #bannerAnalog:active {
+  box-shadow: 0 0 10px cyan;
+}
+
+#bannerDigital{
+    margin-bottom: 10px;
+    height: 180px;
+    width: 960px;
+    background-color: cyan;
+}
+
+#bannerDigital:hover, #bannerDigital:active {
+  box-shadow: 0 0 10px cyan;
+}
+
+#bannerPhoto{
+    margin-bottom: 10px;
+    height: 180px;
+    width: 960px;
+    background-color: magenta;    
+}
+
+#bannerPhoto:hover, #bannerPhoto:active {
+  box-shadow: 0 0 10px magenta;
+}
+
+#bannerVideo{
+    margin-bottom: 10px;
+    height: 180px;
+    width: 960px;
+    background-color: magenta;
+}
+
+#bannerVideo:hover, #bannerVideo:active {
+  box-shadow: 0 0 10px magenta;
+}
+
+#bannerWeb{
+    margin-bottom: 10px;
+    height: 180px;
+    width: 960px;
+    background-color: magenta;
+}
+
+#bannerWeb:hover, #bannerWeb:active {
+  box-shadow: 0 0 10px magenta;
+}
+
+#bannerGraphic{
+    margin-bottom: 10px;    
+    height: 180px;
+    width: 960px;
+    background-color: magenta;
+}
+
+#bannerGraphic:hover, #bannerGraphic:active {
+  box-shadow: 0 0 10px magenta;
+}

@@ -1,0 +1,19 @@
+#contact{
+    height: 400px;
+    background-color: cyan;
+}
+
+#socialMedia{
+    position: relative;
+    float: left;
+    background-color: white;
+}
+
+#contactForm {
+    position: relative;
+    float: left;
+    padding: 0px;
+    width: 560px;
+    height: 300px;
+    background-color: black;
+}

@@ -1,11 +1,3 @@
-#banners{
-    position: static;
-    margin: 165px auto -200px auto;
-    width: 960px;
-    height: auto;
-    min-height: 100%;
-}
-
 #bannerAnalog{
     margin-bottom: 10px;
     height: 180px;

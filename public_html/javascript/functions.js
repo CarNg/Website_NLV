@@ -18,3 +18,12 @@ if ($(this).scrollTop() >= 1 && $(this).scrollTop() <= 50){
     $('#navLogo').removeClass("stepTwo");
   }
 });
+
+function footerExpand(){
+    $('.footerLinks').addClass("expand");
+    $('html, body').animate({scrollTop:$(document).height()}, 'slow');
+}
+
+function footerShrink(){
+    $('.footerLinks').removeClass("expand");
+}

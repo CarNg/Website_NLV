@@ -15,12 +15,11 @@ body {
 }
 
 main {
-    display: block;
     position: relative;
     margin: 165px auto -100px auto;
     width: 960px;
-    overflow: auto;
-    background-color: magenta;
+    height: auto;
+    min-height: 100%;
 }
 
 header{
@@ -31,19 +30,19 @@ header{
     height: 150px;
     width: 100%;
     min-width: 960px;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+    -webkit-transition: height 0.3s ease-in-out;
+    -moz-transition: height 0.3s ease-in-out;
+    -ms-transition: height 0.3s ease-in-out;
+    -o-transition: height 0.3s ease-in-out;
+    transition: height 0.3s ease-in-out;
 }
 
 header:hover{
     box-shadow: 0px 2px 10px cyan;
 }
 
-header.stepOne {
-    height: 100px;
-}
-
-header.stepTwo {
+header.shrink {
+    background: rgba(0, 0, 0, 0.7);
     height: 50px;
 }
 
@@ -64,6 +63,8 @@ header.stepTwo {
     float: left;
     margin-left: 20px;
     top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
@@ -84,6 +85,8 @@ header.stepTwo {
     float: left;
     margin-left: 20px;
     top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
@@ -106,18 +109,18 @@ header.stepTwo {
     float: left;
     margin-left: 20px;
     top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
-#navLogo.stepOne{
-    background-size: 75%;
-    height: 75px;
-}
-
-#navLogo.stepTwo{
-    background-size: 50%;
+#navLogo.shrink{
+    background-size: 120px 50px;
     height: 50px;
 }
 
@@ -130,6 +133,8 @@ header.stepTwo {
     float: left;
     margin-left: 20px;
     top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
@@ -150,6 +155,8 @@ header.stepTwo {
     float: left;
     margin-left: 20px;
     top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
@@ -173,11 +180,13 @@ footer {
     width: auto;
     min-width: 960px;
     -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
 footer:hover{
-    padding-bottom: 170px;
     box-shadow: 0px -2px 10px magenta;
 }
 
@@ -192,10 +201,11 @@ footer:hover{
 .footerSections{
     position: relative;
     float: left;
-    width: 240px;
+    width: 177px;
     margin-top: 20px;
     color: white;
     overflow: hidden;
+    padding-right: 15px;
 }
 
 .footerLinks{
@@ -206,33 +216,53 @@ footer:hover{
     overflow: hidden;
     line-height: 23px;
     font-size: 15px;
-    -webkit-transition: max-height 0.2s ease-in-out;
-    transition: max-height 0.2s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .footerLinks.expand{
-    -webkit-transition: max-height 0.3s ease-in-out;
-    transition: max-height 0.3s ease-in-out;
-    max-height: 150px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    max-height: 250px;
+}
+
+.footerLinks.expand p.gameDesign{
+    text-shadow: 0px 0px 10px cyan;
+    color: white;
+}
+
+.footerLinks.expand p.visualMedia{
+    text-shadow: 0px 0px 10px magenta;
+    color: white;
 }
 
 .footerLinks p{
     margin: 0px;
     padding: 0px;
     color: lightgrey;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+    -webkit-transition: margin 0.3s ease-in-out;
+    -moz-transition: margin 0.3s ease-in-out;
+    -ms-transition: margin 0.3s ease-in-out;
+    -o-transition: margin 0.3s ease-in-out;
+    transition: margin 0.3s ease-in-out;
 }
 
-.footerLinks.expand:hover p{
+.footerLinks p:hover{
     margin-left: 5px;
-    color: white;
 }
 
-.footerLinks.expand p.gameDesign{
-    text-shadow: 0px 0px 10px cyan;
-}
-
-.footerLinks.expand p.visualMedia{
-    text-shadow: 0px 0px 10px magenta;
+#copyright{
+    position: relative;
+    float: left;
+    padding-top: 15px;
+    width: 960px;
+    text-align: center;
+    font-size: 12px;
+    color: darkgrey;
 }

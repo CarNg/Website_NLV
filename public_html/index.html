@@ -25,6 +25,8 @@
         </header>
         
         <main>
+            <div id='headerPush'></div>
+            
             <div id="bannerAnalog">Analog Games</div> 
             <div id="bannerDigital">Digital Games</div>
             <div id="bannerPhoto">Photography</div>
@@ -32,14 +34,16 @@
             <div id="bannerWeb">Web Design</div>
             <div id="bannerGraphic">Graphic Design</div>
             
-            <div id="push"></div>
+            <div id="footerPush"></div>
         </main>
         
         <footer>
             <div id="footerInfo">
+                <div onmousedown="footerExpand()" id='expandButton'>-> Sitemap <-</div>
+                
                  <div class="footerSections">
                     <div class="footerLinks">
-                        <p onmousedown="footerExpand()" class="gameDesign" style="font-size:20px">About</p>
+                        <p class="gameDesign" style="font-size:20px">About</p>
                         Hi, I'm Carmen Ng.
                         Welcome to Night Light Visuals, my personal portfolio.
                         You'll find a number of my visual media work here.
@@ -47,6 +51,7 @@
                         Read more.
                     </div>
                 </div>
+                
                 <div class="footerSections">
                     <div class="footerLinks">
                         <p class="gameDesign" style="font-size:20px">Analog Games</p>
@@ -103,9 +108,7 @@
                         <p class="visualMedia" style="font-size:20px">Contact</p>
                             Location: Dublin, Ireland.<br>
                             Email: carmenng.media@gmail.com<br>
-                    </div>
-                    <div class="footerLinks">
-                        <p class="visualMedia" style="font-size:20px">Connect With Us</p>
+                            <br>
                             LinkedIn 
                             Itch.io 
                             Github 

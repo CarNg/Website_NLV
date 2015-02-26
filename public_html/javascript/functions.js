@@ -10,10 +10,20 @@ if ($(this).scrollTop() >= 150){
     }
 });
 
+var expanded = false;
+
 function footerExpand(){
-    $('footer').css("padding-bottom", "200px");
-    $('.footerLinks').addClass("expand");
-    $('html, body').animate({scrollTop:$(document).height()}, 'slow');
+    if(!expanded){
+        $('footer').css("padding-bottom", "280px");
+        $('.footerLinks').addClass("expand");
+        $('html, body').animate({scrollTop:$(document).height()}, 'slow').delay(800);
+        expanded = true;
+    }
+    else{
+        $('footer').css("padding-bottom", "0px");
+        $('.footerLinks').removeClass("expand");
+        expanded = false;
+    }
 }
 
 function footerShrink(){

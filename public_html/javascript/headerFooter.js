@@ -1,3 +1,7 @@
+$(window).on('beforeunload', function() {
+    $(window).scrollTop(0);
+});
+
 $(function(){
   $('header').load("header.html");
   $('footer').load("footer.html");
@@ -19,19 +23,14 @@ var expanded = false;
 
 function footerExpand(){
     if(!expanded){
-        $('footer').css("padding-bottom", "280px");
-        $('.footerLinks').addClass("expand");
-        $('html, body').animate({scrollTop:$(document).height()}, 'slow').delay(800);
+        $('footer').css("padding-bottom", "250px");
+        $('.footerSections').addClass("expand");
+        $('html, body').animate({scrollTop:$(document).height()}, 'slow');
         expanded = true;
     }
     else{
         $('footer').css("padding-bottom", "0px");
-        $('.footerLinks').removeClass("expand");
+        $('.footerSections').removeClass("expand");
         expanded = false;
     }
-}
-
-function footerShrink(){
-    $('footer').css("padding-bottom", "0px");
-    $('.footerLinks').removeClass("expand");
 }

@@ -19,7 +19,7 @@ header{
     background-color: black;
     position: fixed;
     top: 0px;
-    z-index: 1;
+    z-index: 3;
     height: 150px;
     width: 100%;
     min-width: 960px;
@@ -174,7 +174,7 @@ main {
 }
 
 #footerPush{
-    height: 40px;
+    height: 50px;
 }
 
 footer {
@@ -218,46 +218,52 @@ footer:hover{
     color: white;
     overflow: hidden;
     padding-right: 15px;
+    max-height: 0px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.footerSections.expand{
+    max-height: 300px;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
 }
 
 .footerLinks{
     position: relative;
     height: auto;
-    max-height: 0px;
-    overflow: hidden;
-    line-height: 23px;
-    font-size: 15px;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-}
-
-.footerLinks.expand{
-    margin: 20px 0px 10px 0px;
-    max-height: 250px;
-}
-
-.footerLinks.expand p.gameDesign{
-    text-shadow: 0px 0px 10px cyan;
-    color: white;
-}
-
-.footerLinks.expand p.visualMedia{
-    text-shadow: 0px 0px 10px magenta;
-    color: white;
+    line-height: 20px;
+    font-size: 14px;
+    margin: 10px 0px 10px 0px;
+    padding-left: 6px;
 }
 
 .footerLinks p{
     margin: 0px;
     padding: 0px;
     color: lightgrey;
+    line-height: 28px;
     -webkit-transition: margin 0.3s ease-in-out;
     -moz-transition: margin 0.3s ease-in-out;
     -ms-transition: margin 0.3s ease-in-out;
     -o-transition: margin 0.3s ease-in-out;
     transition: margin 0.3s ease-in-out;
+}
+
+.footerLinks p.gameDesign{
+    text-shadow: 0px 0px 10px cyan;
+    color: white;
+}
+
+.footerLinks p.visualMedia{
+    text-shadow: 0px 0px 10px magenta;
+    color: white;
 }
 
 .footerLinks p:hover{

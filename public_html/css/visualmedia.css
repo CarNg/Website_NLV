@@ -1,0 +1,119 @@
+#filter{
+    margin-bottom: 10px;
+    height: 50px;
+    width: 960px;
+    background-color: magenta;
+}
+
+section{
+    position: relative;
+    float: right;
+    background-color: white;
+    height: 330px;
+    width: 370px;
+    margin: 30px;
+}
+
+.thumbnail{
+    position: relative;
+    float: right;
+    background-image: url("../images/ThumbnailTemp.png");
+    background-position: 0px -330px;
+    height: 330px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 0px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;    
+}
+
+.thumbnail:hover{
+    background-position: 0px 0px;
+}
+
+.photography{
+    margin-bottom: 10px;
+    height: auto;
+    width: 960px;
+    max-height: 500px;
+    max-width: 960px;
+    background-color: cyan;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.photography.hide{
+    margin-bottom: 0px;
+    max-width: 0px;
+    max-height: 0px;
+}
+
+.videography{
+    margin-bottom: 10px;
+    height: auto;
+    width: 960px;
+    max-height: 500px;
+    max-width: 960px;
+    background-color: magenta;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.videography.hide{
+    margin-bottom: 0px;
+    max-width: 0px;
+    max-height: 0px;
+}
+
+.webDesign{
+    margin-bottom: 10px;
+    height: auto;
+    width: 960px;
+    max-height: 500px;
+    max-width: 960px;
+    background-color: cyan;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.webDesign.hide{
+    margin-bottom: 0px;
+    max-width: 0px;
+    max-height: 0px;
+}
+
+.graphicDesign{
+    margin-bottom: 10px;
+    height: auto;
+    width: 960px;
+    max-height: 500px;
+    max-width: 960px;
+    background-color: magenta;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.graphicDesign.hide{
+    margin-bottom: 0px;
+    max-width: 0px;
+    max-height: 0px;
+}

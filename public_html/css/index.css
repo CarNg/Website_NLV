@@ -1,67 +1,43 @@
-#bannerAnalog{
-    margin-bottom: 10px;
-    height: 180px;
-    width: 960px;
-    background-color: cyan;
-    box-shadow:none;
-    transition: height 0.3s ease;
-}
-
-#bannerAnalog:hover, #bannerAnalog:active {
-  box-shadow: 0 0 10px cyan;
-}
-
-#bannerDigital{
-    margin-bottom: 10px;
-    height: 180px;
-    width: 960px;
+#gdImage{
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin: 0px 0px 10px 50px;
     background-color: cyan;
 }
 
-#bannerDigital:hover, #bannerDigital:active {
-  box-shadow: 0 0 10px cyan;
+#gdImage:hover{
+    box-shadow: 0 0 10px cyan;
 }
 
-#bannerPhoto{
-    margin-bottom: 10px;
-    height: 180px;
-    width: 960px;
+#gdText{
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 200px;
+    margin: 0px 0px 20px 50px;
+    background-color: cyan;
+}
+
+#vmImage{
+    position: relative;
+    float: right;
+    width: 400px;
+    height: 400px;
+    margin: 0px 50px 10px 0px;
     background-color: magenta;    
 }
 
-#bannerPhoto:hover, #bannerPhoto:active {
-  box-shadow: 0 0 10px magenta;
+#vmImage:hover{
+    box-shadow: 0 0 10px magenta;
 }
 
-#bannerVideo{
-    margin-bottom: 10px;
-    height: 180px;
-    width: 960px;
-    background-color: magenta;
-}
-
-#bannerVideo:hover, #bannerVideo:active {
-  box-shadow: 0 0 10px magenta;
-}
-
-#bannerWeb{
-    margin-bottom: 10px;
-    height: 180px;
-    width: 960px;
-    background-color: magenta;
-}
-
-#bannerWeb:hover, #bannerWeb:active {
-  box-shadow: 0 0 10px magenta;
-}
-
-#bannerGraphic{
-    margin-bottom: 20px;    
-    height: 180px;
-    width: 960px;
-    background-color: magenta;
-}
-
-#bannerGraphic:hover, #bannerGraphic:active {
-  box-shadow: 0 0 10px magenta;
+#vmText{
+    position: relative;
+    float: right;
+    width: 400px;
+    height: 200px;
+    margin: 0px 50px 20px 0px;
+    background-color: magenta;    
 }

@@ -10,7 +10,8 @@
         <link href="css/main.css" rel="stylesheet"/>
         <link href="css/gamedesign.css" rel="stylesheet"/>
         <script src="javascript/jquery-1.11.2.js"></script>
-        <script src="javascript/functions.js"></script>
+        <script src="javascript/headerFooter.js"></script>
+        <script src="javascript/gameDesignFilter.js"></script>
     </head>
     
     <body>
@@ -19,7 +20,51 @@
         <main>
             <div id='headerPush'></div>
             
+            <div id="filter">Filter:
+                <a onmousedown="filterGames(0)">All</a>
+                <a onmousedown="filterGames(1)">Analog</a>
+                <a onmousedown="filterGames(2)">Digital</a>
+            </div>
             
+            <div class="digitalGames">
+            <section>This Time Around</section>
+            <div class="thumbnail">Thumbnail</div>
+            </div>
+            
+            <div class="digitalGames">
+            <section>Arcade</section>
+            <div class="thumbnail">Thumbnail</div>
+            </div>
+            
+            <div class="digitalGames">
+            <section>Sketch (Prototype)</section>
+            <div class="thumbnail">Thumbnail</div>
+            </div>
+            
+            <div class="digitalGames">
+            <section>Turntable</section>
+            <div class="thumbnail">Thumbnail</div>
+            </div>
+            
+            <div class="analogGames">
+            <section>Circuits</section>
+            <div class="thumbnail">Thumbnail</div>
+            </div>
+            
+            <div class="analogGames">
+            <section>Hopscotch 2: Elements</section>
+            <div class="thumbnail">Thumbnail</div>
+            </div>
+            
+            <div class="analogGames">
+            <section>Anything But Small Talk!</section>
+            <div class="thumbnail">Thumbnail</div>
+            </div>
+            
+            <div class="digitalGames">
+            <section>Pigeon Invasion</section>
+            <div class="thumbnail">Thumbnail</div>
+            </div>
             
             <div id='footerPush'></div>
         </main>

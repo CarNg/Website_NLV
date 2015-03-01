@@ -1,0 +1,19 @@
+#about{
+    position: relative;
+    float: left;
+    width: 960px;
+    height: 850px;
+    margin-bottom: 10px;
+    background-color: cyan;
+}
+
+#cvDownload{
+    position: relative;
+    float: left;
+    width: 960px;
+    height: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 50px;
+    background-color: magenta;
+}

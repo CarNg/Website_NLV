@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title>Night Light Visuals</title>
+        <title>Visual Media | Night Light Visuals</title>
         
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +12,12 @@
         <script src="javascript/jquery-1.11.2.js"></script>
         <script src="javascript/headerFooter.js"></script>
         <script src="javascript/visualMediaFilter.js"></script>
+        
+        <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" media="screen" />
+        <script src="fancybox/source/jquery.fancybox.pack.js"></script>
+        <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+        <script src="javascript/fancybox.js"></script>
     </head>
     
     <body>
@@ -19,6 +25,8 @@
         
         <main>
             <div id='headerPush'></div>
+            
+            <span class="anchor" id="w_nightlight"></span>
             
             <div id="filter">Filter: 
                 <a onmousedown="filterVisualMedia(0)">All</a>
@@ -29,82 +37,281 @@
             </div>
             
             <div class="webDesign">
-            <section>Night Light Visuals</section>
-            <div class="thumbnail">Thumbnail</div>
+            <section>
+                <b>Night Light Visuals (2015)</b><br>
+                Web Design - Night Light Visuals Website
+                <p>This website was designed and developed from scratch and
+                    built on HTML5, CSS3 and jQuery. <a href='http://fancyapps.com/fancybox/'>Fancybox</a>
+                    is used for the lightbox of the website. The site is currently being hosted on GitHub.<br>
+                   <br>Created in: Photoshop, Illustrator and NetBeans.
+                </p>
+                <b>Links:</b><br>
+                    <a href="https://github.com/CarNg/Website_NLV">Night Light Visuals on GitHub</a>
+            </section>
+                <div class="thumbnail">
+                    <a class="fancybox-thumb" rel="fancybox-thumb" href="images/ThumbnailTemp.png" title="Temporary Image">
+                        <img src="images/ThumbnailTemp.png" alt="" height="281" width="500"/>
+                    </a>
+                </div>
             </div>
             
             <div class="videography">
-            <section>This Time Around Trailer</section>
-            <div class="thumbnail">Thumbnail</div>
+                <span class="anchor" id="v_thistimearound"></span>
+                <section>
+                    <b><a href="gameprojects/thistimearound.html">This Time Around</a> Teaser Trailer (2015)</b><br>
+                    Videography - Game Trailer
+                    <p>A teaser trailer created for the promotion and release of This Time Around.
+                       Gameplay was recorded using Quicktime Player and edited in Final Cut. Small animations such as the logo was implemented in After Effects.<br>
+                       <br>Created in: Unity3D, Quicktime Player, Final Cut and After Effects.
+                    </p>
+                    <b>Links:</b><br>
+                    <a href="gameprojects/thistimearound.html">This Time Around Information</a>
+                    <br>
+                    <a href="http://nightlightvisuals.itch.io/thistimearound">This Time Around on Itch.io</a>
+                </section>
+                <div class="video">
+                    <iframe width="500" height="281" src="https://www.youtube.com/embed/L34cN04HhrU" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
             
             <div class="videography">
-            <section>Pigeon Invasion Trailer</section>
-            <div class="thumbnail">Thumbnail</div>
+                <span class="anchor" id="v_pigeoninvasion"></span>
+                <section>
+                    <b><a href="gameprojects/pigeoninvasion.html">Pigeon Invasion</a> Trailer (2014)</b><br>
+                    Videography - Game Trailer
+                    <p>A section demonstrating my role in the trailer created for Pigeon Invasion.
+                        Gameplay was recorded using Quicktime Player and edited in Adobe Premiere.
+                        This was then put together and animated in After Effects.
+                        Artwork by Michiel Rheiter.(Music in this video is not that of the one in the official trailer)<br>
+                       <br>Created in: Quicktime Player, Adobe Premiere, After Effects.
+                    </p>
+                    <b>Links:</b><br>
+                    <a href="gameprojects/pigeoninvasion.html">Pigeon Invasion Information</a>
+                    <br>
+                    <a href="https://itunes.apple.com/ie/app/pigeon-invasion/id817549884?mt=8">Pigeon Invasion in the App Store</a>
+                </section>
+                <div class="video">
+                    <iframe width="500" height="281" src="https://www.youtube.com/embed/VFMDhCoYk1M" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
             
             <div class="videography">
-            <section>Eternal Sunshine of the Spotless Mind Opening Sequence</section>
+                <span class="anchor" id="v_eternalsunshine"></span>
+                <section>
+                    <b>Eternal Sunshine of the Spotless Mind Opening Sequence (2014)</b><br>
+                    Videography - Movie Opening Sequence
+                    <p>Opening sequence for the movie ‘Eternal Sunshine of the Spotless Mind’, created as part of a digital media tools class.
+                        Inspired by the theme of the movie and DVD case design.<br>
+                        <br>Images were edited in Photoshop before importing them into Adobe Premiere to be compiled and edited. This was then animated in After Effects to create the final result. <br>
+                       <br>Created in: Photoshop, Premiere and After Effects.
+                    </p>
+                </section>
+                <div class="video">
+                <iframe width="500" height="281" src="https://www.youtube.com/embed/OQKubIVWiuA" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="webDesign">
+                    <span class="anchor" id="w_coffeecompany"></span>
+                <section>
+                    <b><a href="https://dl.dropboxusercontent.com/u/218018936/The%20Coffee%20Company/index.html">The Coffee Company (2013)</a></b><br>
+                    Web Design - Fictional Coffee Shop<br>
+                    <p>A website for a fictional coffee company that I designed and developed as part of both a design, and authoring principles class. The rest of the brand including products and social media site images were also created. A link to the branding is provided below.<br>
+                        <br>Details of the Coffee Company as presented in the brief:
+                        "The Coffee Company is an independent cafe that sells its own range of coffee products in shop and online.
+                        They want to appeal to coffee lovers and distinguish themselves as purveyors of a unique quality coffee.
+                        They want ideas for their online presence and packaging."<br>
+                        <br>Created in: Photoshop, Illustrator and Netbeans.
+                    </p>
+                    <b>Links:</b><br>
+                    <a href="https://dl.dropboxusercontent.com/u/218018936/The%20Coffee%20Company/index.html">The Coffee Company Website</a><br>
+                    <a href="https://github.com/CarNg/Website_TheCoffeeCompany">The Coffee Company Website on GitHub</a><br>
+                    <a onmousedown="jumpToBranding(80)">The Coffee Company Branding</a>
+                </section>
+                
+                <div class="thumbnail">Thumbnail
+                </div>
+            </div>
+            
+            <div class="graphicDesign">
+                <span class="anchor" id="g_coffeecompany"></span>
+            <section>
+                    <b>The Coffee Company Branding (2013)</b><br>
+                    Graphic Design - The Coffee Company Branding<br>
+                    <p>A series of products designed for a fictional coffee company as part of a design class.
+                        This includes the logo, coffee products, loyalty cards, social media photos and an iOS app icon design.
+                        A website for the brand was also designed. A link is provided below.<br>
+                        <br>Details of The Coffee Company as presented in the brief:
+                        "The Coffee Company is an independent cafe that sells its own range of coffee products in shop and online.
+                        They want to appeal to coffee lovers and distinguish themselves as purveyors of a unique quality coffee.
+                        They want ideas for their online presence and packaging."<br>
+                        <br>Created in: Photoshop and Illustrator .
+                    </p>
+                    <b>Links:</b><br>
+                    <a href="https://dl.dropboxusercontent.com/u/218018936/The%20Coffee%20Company/index.html">The Coffee Company Website</a>
+            </section>
+            <div class="thumbnail">Thumbnail</div>
+            </div>
+            
+            <div class="photography">
+                <span class="anchor" id="p_exhibition"></span>
+                <section>
+                    <b>'I'll Leave The Nightlight On' Series (2012)</b><br>
+                    Photography - Photography Exhibition
+                    <p>'I'll Leave the Nightlight On' series took part in the GCD Graduate Photography and Media Show in 2012.<br>
+                        <br>One of the prints, ‘Have The Wish I Wish Tonight’, was later auctioned off as part of The SCOOP Art Auction in 2012.
+                    </p>
+                </section>
             <div class="thumbnail">Thumbnail</div>
             </div>
             
             <div class="webDesign">
-            <section>The Coffee Company Website</section>
+                <span class="anchor" id="w_originalnightlight"></span>
+            <section>
+                <b><a href="https://dl.dropboxusercontent.com/u/218018936/Nightlightvisuals/index.html">Previous Night Light Visuals Website (2012)</a></b><br>
+                Web Design - Previous Portfolio Site
+                <p>An old portfolio site for Night Light Visuals that I designed and built using Dreamweaver.
+                    Site is still accessible with the link provided below.<br>
+                    <br>Created in: Photoshop and Dreamweaver.
+                </p>
+                <b>Links:</b><br>
+                    <a href="https://dl.dropboxusercontent.com/u/218018936/Nightlightvisuals/index.html">Original Night Light Visuals Website</a>
+                    <br><a href="https://github.com/CarNg/Website_OriginalNLV">Original Night Light Visuals Website on GitHub</a><br>
+                    <a onmousedown="jumpToBranding(585)">Original Night Light Visuals Branding</a>
+            </section>
             <div class="thumbnail">Thumbnail</div>
             </div>
             
             <div class="graphicDesign">
-            <section>The Coffee Company Branding</section>
-            <div class="thumbnail">Thumbnail</div>
-            </div>
-            
-            <div class="webDesign">
-            <section>Original Night Light Visuals Website</section>
-            <div class="thumbnail">Thumbnail</div>
-            </div>
-            
-            <div class="graphicDesign">
-            <section>Original Night Light Visuals Branding</section>
+                <span class="anchor" id="g_originalnightlight"></span>
+            <section>
+                <b>Previous Night Light Visuals Branding (2012)</b><br>
+                Graphic Design - Previous Night Light Visuals Branding
+                <p>Business cards and a DVD portfolio was designed as part of Night Light Visuals' original branding.<br>
+                   <br>A website was also designed to accompany the brand and portfolio.
+                   This can be viewed with the link provided below.<br>
+                   <br>Created in: Photoshop, Illustrator and InDesign.
+                </p>
+                <b>Links:</b><br>
+                    <a href="https://dl.dropboxusercontent.com/u/218018936/Nightlightvisuals/index.html">Original Night Light Visuals Website</a>
+            </section>
             <div class="thumbnail">Thumbnail</div>
             </div>
             
             <div class="videography">
-            <section>In The Mourning Stop Motion Video</section>
-            <div class="thumbnail">Thumbnail</div>
+                <span class="anchor" id="v_inthemourning"></span>
+                <section>
+                    <b>In The Mourning Music Video (2012)</b><br>
+                    Videography - Stop Motion Music Video
+                    <p>A short stop motion music video that I shot, directed and edited as part of a digital photography class.<br>
+                       <br>Shot on a Nikon D80. Images were edited in Photoshop and put together in Final Cut.
+                       Big thank you to Stevie Appleby and Julie Collins.<br>
+                       <br>Created in: Photoshop and Final Cut.
+                    </p>
+                </section>
+                <div class="video">
+                <iframe width="500" height="281" src="https://www.youtube.com/embed/B2BLYEt0UEQ" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
             
             <div class="graphicDesign">
-            <section>Finding Home Movie Poster</section>
+                <span class="anchor" id="g_findinghome"></span>
+            <section>
+                <b>Finding Home (2012)</b><br>
+                Graphic Design - Movie Poster
+                <p>A movie poster shot, designed and created for a fictional movie called ‘Finding Home’ as part of a semi-open brief for a digital photography class.
+                    Themes of the film were set; however, the plot and synopsis was up to ourselves to decide.<br>
+                    <br>More information on the proposal for ‘Finding Home' including the plot synopsis and poster design
+                    is available by clicking the second image provided.<br>
+                    <br>Created in: Photoshop.
+                </p>
+            </section>
             <div class="thumbnail">Thumbnail</div>
             </div>
             
             <div class="photography">
-            <section>Street Photography</section>
+                <span class="anchor" id="p_street"></span>
+                <section>
+                    <b>Street Photography (2010-2012)</b><br>
+                    Photography - Street Art and Street Photography
+                    <p>There's something about taking a camera with me while I explore
+                        that makes me slow down and look around like no other. These are
+                        just some of the things that have caught my eye.<br>
+                        <br>A series of photographs taken while exploring the streets of Hong Kong and Dublin.
+                    </p>
+                </section>
             <div class="thumbnail">Thumbnail</div>
             </div>
             
             <div class="videography">
-            <section>Little Green Cars Documentary</section>
-            <div class="thumbnail">Thumbnail</div>
+                <span class="anchor" id="v_documentary"></span>
+                <section>
+                    <b>Little Green Cars Documentary (2011)</b><br>
+                    Videography - Documentary
+                    <p>A short band documentary that I shot, directed and edited as part of a video production class.<br>
+                       <br>Shot on a Sony DSR-PD150 and edited in Final Cut. Big thank you to the band and Julie Collins.<br>
+                       <br> Created in: Final Cut.
+                    </p>
+                </section>
+                <div class="video">
+                <iframe width="500" height="281" src="https://www.youtube.com/embed/NbnUAyZ8gOs" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
             
             <div class="graphicDesign">
-            <section>Spies and Friends Album Art</section>
+                <span class="anchor" id="g_spies"></span>
+            <section>
+                <b>Spies and Friends (2010)</b><br>
+                Graphic Design - Album Art
+                <p>A CD booklet and packaging shot and designed for a fictional album as part of an open brief project for a digital photography class.<br>
+                    <br>Inspired by the lights at live shows, I decided to combine light painting with some shots taken at a show to create the packaging.<br>
+                    <br>Created in: Photoshop and InDesign.
+                </p>
+            </section>
             <div class="thumbnail">Thumbnail</div>
             </div>
             
             <div class="photography">
-            <section>Night Photography</section>
+                <span class="anchor" id="p_night"></span>
+            <section>
+                <b>Night Photography (2009-2011)</b><br>
+                Photography - Night and Long Exposure Photography
+                <p>Night photography and long exposures has always been a side of photography that I loved.
+                    There's something about them that, to me, simultaneously freezes and captures
+                    the passing of time perfectly. It's that ability to capture the passing of time in one shot
+                    that makes long exposures and night photography so special to me.<br>
+                    <br>A series of light paintings, long exposures and night photographs.
+                </p>
+            </section>
             <div class="thumbnail">Thumbnail</div>
             </div>
             
             <div class="photography">
-            <section>Portraits</section>
+                <span class="anchor" id="p_portrait"></span>
+            <section>
+                <b>Portrait Photography (2009-2011)</b><br>
+                Photography - Series of Portraits
+                <p>Portraits have always been a strange thing to me.
+                    We are surrounded by people but how often to we really look at people.
+                    How odd would it be to just sit and stare at someone? To examine them and gauge how they feel
+                    just with our sight. Portraits allow us to do that. It's one moment where we can truly <i>look</i>
+                    at someone. How the shadow falls on their face, their body posture, their smile, their frown, their movement.
+                    It's all there.<br>
+                    <br> A series of portraits taken in and out of the studio, tactfully and candidly.
+                </p>
+            </section>
             <div class="thumbnail">Thumbnail</div>
             </div>
             
             <div class="graphicDesign">
-            <section>Cinematography Business Card</section>
+                <span class="anchor" id="g_cinematography"></span>
+            <section>
+                <b>Cinematography Business Card (2009)</b><br>
+                Graphic Design - Business Card
+                <p>A business card designed for a fictional job as a cinematographer as part a layout and graphic design class.<br>
+                    <br>Created in: Photoshop, Illustrator and InDesign.
+                </p>
+            </section>
             <div class="thumbnail">Thumbnail</div>
             </div>
             

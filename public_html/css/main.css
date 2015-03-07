@@ -20,9 +20,10 @@ header{
     position: fixed;
     top: 0px;
     z-index: 3;
-    height: 150px;
+    height: 130px;
     width: 100%;
     min-width: 960px;
+    overflow: hidden;
     -webkit-transition: height 0.3s ease-in-out;
     -moz-transition: height 0.3s ease-in-out;
     -ms-transition: height 0.3s ease-in-out;
@@ -99,22 +100,13 @@ header.shrink {
     position: relative;
     width: 240px;
     height: 100px;
+    background-color: magenta;
     float: left;
     margin-left: 20px;
     top: 50%;
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-
-#navLogo.shrink{
-    background-size: 120px 50px;
-    height: 50px;
 }
 
 #navVisual{
@@ -162,7 +154,7 @@ header.shrink {
 }
 
 #headerPush{
-    height: 175px;
+    height: 155px;
 }
 
 main {
@@ -266,7 +258,7 @@ footer:hover{
     color: white;
 }
 
-.footerLinks p:hover{
+.footerLinks:hover p{
     margin-left: 5px;
 }
 

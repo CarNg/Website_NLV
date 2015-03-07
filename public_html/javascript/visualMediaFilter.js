@@ -30,3 +30,11 @@ function filterVisualMedia(type){
         $('.graphicDesign').removeClass("hide");
     }
 }
+
+function jumpToBranding(position){
+    $('.photography').addClass("hide");
+    $('.videography').addClass("hide"); 
+    $('.webDesign').addClass("hide");
+    $('.graphicDesign').removeClass("hide");
+    $(window).scrollTop(position);
+}

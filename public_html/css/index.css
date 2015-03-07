@@ -1,9 +1,9 @@
 #gdImage{
     position: relative;
     float: left;
-    width: 400px;
-    height: 400px;
-    margin: 0px 0px 10px 50px;
+    width: 440px;
+    height: 300px;
+    margin: 0px 0px 20px 20px;
     background-color: cyan;
 }
 
@@ -14,18 +14,17 @@
 #gdText{
     position: relative;
     float: left;
-    width: 400px;
+    width: 440px;
     height: 200px;
-    margin: 0px 0px 20px 50px;
-    background-color: cyan;
+    margin: 0px 0px 10px 20px;
 }
 
 #vmImage{
     position: relative;
     float: right;
-    width: 400px;
-    height: 400px;
-    margin: 0px 50px 10px 0px;
+    width: 440px;
+    height: 300px;
+    margin: 0px 20px 20px 0px;
     background-color: magenta;    
 }
 
@@ -36,8 +35,16 @@
 #vmText{
     position: relative;
     float: right;
-    width: 400px;
+    width: 440px;
     height: 200px;
-    margin: 0px 50px 20px 0px;
-    background-color: magenta;    
+    margin: 0px 20px 10px 0px;
+}
+
+#projects{
+    position: relative;
+    float: right;
+    width: 920px;
+    height: auto;
+    margin: 0px 20px 20px 0px;
+    background-color: cyan;
 }

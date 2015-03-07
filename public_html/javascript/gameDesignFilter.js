@@ -12,3 +12,4 @@ function filterGames(type){
         $('.digitalGames').removeClass("hide");
     }
 }
+

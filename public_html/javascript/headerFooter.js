@@ -1,7 +1,3 @@
-$(window).on('beforeunload', function() {
-    $(window).scrollTop(0);
-});
-
 $(function(){
   $('header').load("header.html");
   $('footer').load("footer.html");
@@ -10,12 +6,9 @@ $(function(){
 $(window).scroll(function() {
 if ($(this).scrollTop() >= 150){  
     $('header').addClass("shrink");
-    $('#navLogo').addClass("shrink");
   }
   else{
     $('header').removeClass("shrink");
-    $('#navLogo').removeClass("shrink");
-
     }
 });
 
@@ -23,7 +16,7 @@ var expanded = false;
 
 function footerExpand(){
     if(!expanded){
-        $('footer').css("padding-bottom", "250px");
+        $('footer').css("padding-bottom", "270px");
         $('.footerSections').addClass("expand");
         $('html, body').animate({scrollTop:$(document).height()}, 'slow');
         expanded = true;

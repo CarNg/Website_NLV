@@ -1,3 +1,10 @@
+.anchor{
+  display: block;
+  height: 80px;
+  margin-top: -80px;
+  visibility: hidden;
+}
+
 #filter{
     margin-bottom: 10px;
     height: 50px;
@@ -8,30 +15,29 @@
 section{
     position: relative;
     float: right;
-    background-color: white;
-    height: 330px;
+    height: auto;
     width: 370px;
     margin: 30px;
+}
+
+.video{
+    position: relative;
+    float: right;
+    margin: 30px 0px 30px 30px;
 }
 
 .thumbnail{
     position: relative;
     float: right;
-    background-image: url("../images/ThumbnailTemp.png");
-    background-position: 0px -330px;
-    height: 330px;
+    height: 280px;
     width: 500px;
-    margin-top: 30px;
-    margin-left: 0px;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;    
-}
-
-.thumbnail:hover{
-    background-position: 0px 0px;
+    margin: 30px 0px 30px 30px;
+    background-color: white;
+    -webkit-transition: background-position 0.5s ease-in-out;
+    -moz-transition: background-position 0.5s ease-in-out;
+    -ms-transition: background-position 0.5s ease-in-out;
+    -o-transition: background-position 0.5s ease-in-out;
+    transition: background-position 0.5s ease-in-out;    
 }
 
 .photography{
@@ -42,11 +48,11 @@ section{
     max-width: 960px;
     background-color: cyan;
     overflow: hidden;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
 }
 
 .photography.hide{
@@ -63,11 +69,11 @@ section{
     max-width: 960px;
     background-color: magenta;
     overflow: hidden;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
 }
 
 .videography.hide{
@@ -84,11 +90,11 @@ section{
     max-width: 960px;
     background-color: cyan;
     overflow: hidden;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
 }
 
 .webDesign.hide{
@@ -105,11 +111,11 @@ section{
     max-width: 960px;
     background-color: magenta;
     overflow: hidden;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
 }
 
 .graphicDesign.hide{

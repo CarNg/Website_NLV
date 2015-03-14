@@ -1,3 +1,22 @@
+a:link {
+    color: cyan;
+    text-decoration: none;
+}
+
+a:visited {
+    color: cyan;
+}
+
+a:hover {
+    color: magenta;
+    text-decoration: none;
+}
+
+a:active {
+    color: magenta;
+    text-decoration: underline;
+}
+
 #gdImage{
     position: relative;
     float: left;
@@ -15,8 +34,10 @@
     position: relative;
     float: left;
     width: 440px;
-    height: 200px;
+    height: 255px;
     margin: 0px 0px 10px 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 #vmImage{
@@ -36,8 +57,10 @@
     position: relative;
     float: right;
     width: 440px;
-    height: 200px;
+    height: 255px;
     margin: 0px 20px 10px 0px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 #projects{
@@ -46,4 +69,6 @@
     width: 920px;
     height: auto;
     margin: 0px 20px 20px 0px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
 }

@@ -1,3 +1,22 @@
+a:link {
+    color: cyan;
+    text-decoration: none;
+}
+
+a:visited {
+    color: cyan;
+}
+
+a:hover {
+    color: magenta;
+    text-decoration: none;
+}
+
+a:active {
+    color: magenta;
+    text-decoration: underline;
+}
+
 #about{
     position: relative;
     float: left;
@@ -15,5 +34,7 @@
     margin-bottom: 20px;
     text-align: center;
     line-height: 50px;
-    background-color: magenta;
+    background-color: black;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 18px;
 }

@@ -1,8 +1,71 @@
+a:link {
+    color: cyan;
+    text-decoration: none;
+}
+
+a:visited {
+    color: cyan;
+}
+
+a:hover {
+    color: magenta;
+    text-decoration: none;
+}
+
+a:active {
+    color: magenta;
+    text-decoration: underline;
+}
+
 #filter{
     margin-bottom: 10px;
+    padding-left: 30px;
     height: 50px;
-    width: 960px;
-    background-color: magenta;
+    width: 225px;
+    background-color: black;
+    color: lightgrey;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+#all{
+    cursor: pointer;
+    color: lightgrey;
+}
+
+#all:hover{
+    color: magenta;
+}
+
+#all.selected{
+    color: cyan;
+}
+
+#analog{
+    cursor: pointer;
+    color: lightgrey;
+}
+
+#analog:hover{
+    color: magenta;
+}
+
+#analog.selected{
+    color: cyan;
+}
+
+#digital{
+    cursor: pointer;
+    color: lightgrey;
+}
+
+#digital:hover{
+    color: magenta;
+}
+
+#digital.selected{
+    color: cyan;
 }
 
 section{
@@ -45,12 +108,15 @@ section{
     height: auto;
     width: 960px;
     margin-bottom: 10px;
-    background-color: cyan;
+    background-color: black;
     -webkit-transition: all 0.8s ease-in-out;
     -moz-transition: all 0.8s ease-in-out;
     -ms-transition: all 0.8s ease-in-out;
     -o-transition: all 0.8s ease-in-out;
     transition: all 0.8s ease-in-out;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+    color: lightgray;
 }
 
 .analogGames.hide{
@@ -67,12 +133,15 @@ section{
     width: 960px;
     margin-bottom: 10px;
     padding-left: 0px;
-    background-color: magenta;
+    background-color: black;
     -webkit-transition: all 0.8s ease-in-out;
     -moz-transition: all 0.8s ease-in-out;
     -ms-transition: all 0.8s ease-in-out;
     -o-transition: all 0.8s ease-in-out;
     transition: all 0.8s ease-in-out;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+    color: lightgrey;
 }
 
 .digitalGames.hide{

@@ -231,9 +231,11 @@ footer:hover{
     position: relative;
     height: auto;
     line-height: 20px;
-    font-size: 14px;
     margin: 10px 0px 10px 0px;
     padding-left: 6px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 13px;
+    color: lightgray;
 }
 
 .footerLinks p{
@@ -249,12 +251,12 @@ footer:hover{
 }
 
 .footerLinks p.gameDesign{
-    text-shadow: 0px 0px 10px cyan;
+    text-shadow: 0px 0px 8px cyan;
     color: white;
 }
 
 .footerLinks p.visualMedia{
-    text-shadow: 0px 0px 10px magenta;
+    text-shadow: 0px 0px 8px magenta;
     color: white;
 }
 
@@ -270,4 +272,23 @@ footer:hover{
     text-align: center;
     font-size: 12px;
     color: darkgrey;
+}
+
+.footerLinks a:link {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.footerLinks a:visited {
+    color: lightgrey;
+}
+
+.footerLinks a:hover {
+    color: cyan;
+    text-decoration: none;
+}
+
+.footerLinks a:active {
+    color: magenta;
+    text-decoration: none;
 }

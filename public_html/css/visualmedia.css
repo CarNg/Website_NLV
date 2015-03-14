@@ -1,3 +1,22 @@
+a:link {
+    color: cyan;
+    text-decoration: none;
+}
+
+a:visited {
+    color: cyan;
+}
+
+a:hover {
+    color: magenta;
+    text-decoration: none;
+}
+
+a:active {
+    color: magenta;
+    text-decoration: underline;
+}
+
 .anchor{
   display: block;
   height: 80px;
@@ -8,8 +27,78 @@
 #filter{
     margin-bottom: 10px;
     height: 50px;
-    width: 960px;
-    background-color: magenta;
+    width: 545px;
+    padding-left: 30px;
+    background-color: black;
+    color: lightgrey;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+#all{
+    cursor: pointer;
+    color: lightgrey;
+}
+
+#all:hover{
+    color: magenta;
+}
+
+#all.selected{
+    color: cyan;
+}
+
+#photo{
+    cursor: pointer;
+    color: lightgrey;
+}
+
+#photo:hover{
+    color: magenta;
+}
+
+#photo.selected{
+    color: cyan;
+}
+
+#video{
+    cursor: pointer;
+    color: lightgrey;
+}
+
+#video:hover{
+    color: magenta;
+}
+
+#video.selected{
+    color: cyan;
+}
+
+#web{
+    cursor: pointer;
+    color: lightgrey;
+}
+
+#web:hover{
+    color: magenta;
+}
+
+#web.selected{
+    color: cyan;
+}
+
+#graphic{
+    cursor: pointer;
+    color: lightgrey;
+}
+
+#graphic:hover{
+    color: magenta;
+}
+
+#graphic.selected{
+    color: cyan;
 }
 
 section{
@@ -46,13 +135,16 @@ section{
     width: 960px;
     max-height: 500px;
     max-width: 960px;
-    background-color: cyan;
+    background-color: black;
     overflow: hidden;
     -webkit-transition: all 0.8s ease-in-out;
     -moz-transition: all 0.8s ease-in-out;
     -ms-transition: all 0.8s ease-in-out;
     -o-transition: all 0.8s ease-in-out;
     transition: all 0.8s ease-in-out;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+    color: lightgray;
 }
 
 .photography.hide{
@@ -67,13 +159,16 @@ section{
     width: 960px;
     max-height: 500px;
     max-width: 960px;
-    background-color: magenta;
+    background-color: black;
     overflow: hidden;
     -webkit-transition: all 0.8s ease-in-out;
     -moz-transition: all 0.8s ease-in-out;
     -ms-transition: all 0.8s ease-in-out;
     -o-transition: all 0.8s ease-in-out;
     transition: all 0.8s ease-in-out;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+    color: lightgray;
 }
 
 .videography.hide{
@@ -88,13 +183,16 @@ section{
     width: 960px;
     max-height: 500px;
     max-width: 960px;
-    background-color: cyan;
+    background-color: black;
     overflow: hidden;
     -webkit-transition: all 0.8s ease-in-out;
     -moz-transition: all 0.8s ease-in-out;
     -ms-transition: all 0.8s ease-in-out;
     -o-transition: all 0.8s ease-in-out;
     transition: all 0.8s ease-in-out;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+    color: lightgray;
 }
 
 .webDesign.hide{
@@ -109,13 +207,16 @@ section{
     width: 960px;
     max-height: 500px;
     max-width: 960px;
-    background-color: magenta;
+    background-color: black;
     overflow: hidden;
     -webkit-transition: all 0.8s ease-in-out;
     -moz-transition: all 0.8s ease-in-out;
     -ms-transition: all 0.8s ease-in-out;
     -o-transition: all 0.8s ease-in-out;
     transition: all 0.8s ease-in-out;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+    color: lightgray;
 }
 
 .graphicDesign.hide{
@@ -123,3 +224,9 @@ section{
     max-width: 0px;
     max-height: 0px;
 }
+
+.link{
+    color: cyan;
+}
+
+

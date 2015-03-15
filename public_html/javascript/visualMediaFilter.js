@@ -57,6 +57,11 @@ function filterVisualMedia(type){
 }
 
 function jumpToBranding(position){
+    $('#all').removeClass("selected");
+    $('#photo').removeClass("selected");
+    $('#video').removeClass("selected");
+    $('#web').removeClass("selected");
+    $('#graphic').addClass("selected");
     $('.photography').addClass("hide");
     $('.videography').addClass("hide"); 
     $('.webDesign').addClass("hide");

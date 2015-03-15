@@ -1,19 +1,18 @@
 a:link {
-    color: cyan;
-    text-decoration: none;
+    color: lightgray;
+    text-decoration: underline;
 }
 
 a:visited {
-    color: cyan;
+    color: lightgray;
 }
 
 a:hover {
-    color: magenta;
+    text-shadow: 0px 0px 5px #e01bbd;
     text-decoration: none;
 }
 
 a:active {
-    color: magenta;
     text-decoration: underline;
 }
 
@@ -26,79 +25,90 @@ a:active {
 
 #filter{
     margin-bottom: 10px;
-    height: 50px;
-    width: 545px;
-    padding-left: 30px;
+    height: 60px;
+    width: 504px;
+    padding-left: 20px;
     background-color: black;
+    background-image: url("../images/bkd_filter_vm.png");
     color: lightgrey;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 50px;
+    font-size: 17px;
+    line-height: 60px;
 }
 
 #all{
     cursor: pointer;
     color: lightgrey;
+    text-decoration: underline;
 }
 
 #all:hover{
-    color: magenta;
+    text-shadow: 0px 0px 7px #e01bbd;
 }
 
 #all.selected{
-    color: cyan;
+    text-shadow: 0px 0px 7px #e01bbd;
+    text-decoration: none;
 }
 
 #photo{
     cursor: pointer;
     color: lightgrey;
+    text-decoration: underline;
 }
 
 #photo:hover{
-    color: magenta;
+    text-shadow: 0px 0px 7px #e01bbd;
 }
 
 #photo.selected{
-    color: cyan;
+    text-shadow: 0px 0px 7px #e01bbd;
+    text-decoration: none;
 }
 
 #video{
     cursor: pointer;
     color: lightgrey;
+    text-decoration: underline;
 }
 
 #video:hover{
-    color: magenta;
+    text-shadow: 0px 0px 7px #e01bbd;
 }
 
 #video.selected{
-    color: cyan;
+    text-shadow: 0px 0px 7px #e01bbd;
+    text-decoration: none;
 }
 
 #web{
     cursor: pointer;
     color: lightgrey;
+    text-decoration: underline;
 }
 
 #web:hover{
-    color: magenta;
+    text-shadow: 0px 0px 7px #e01bbd;
 }
 
 #web.selected{
-    color: cyan;
+    text-shadow: 0px 0px 7px #e01bbd;
+    text-decoration: none;
 }
 
 #graphic{
     cursor: pointer;
     color: lightgrey;
+    text-decoration: underline;
 }
 
 #graphic:hover{
-    color: magenta;
+    text-shadow: 0px 0px 7px #e01bbd;
 }
 
 #graphic.selected{
-    color: cyan;
+    text-shadow: 0px 0px 7px #e01bbd;
+    text-decoration: none;
 }
 
 section{
@@ -226,7 +236,8 @@ section{
 }
 
 .link{
-    color: cyan;
+    color: lightgray;
+    text-decoration: underline;
 }
 
 

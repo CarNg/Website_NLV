@@ -1,19 +1,18 @@
 a:link {
-    color: cyan;
-    text-decoration: none;
+    color: lightgray;
+    text-decoration: underline;
 }
 
 a:visited {
-    color: cyan;
+    color: lightgray;
 }
 
 a:hover {
-    color: magenta;
+    text-shadow: 0px 0px 5px cyan;
     text-decoration: none;
 }
 
 a:active {
-    color: magenta;
     text-decoration: underline;
 }
 

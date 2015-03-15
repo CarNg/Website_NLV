@@ -100,7 +100,7 @@ header.shrink {
     position: relative;
     width: 240px;
     height: 100px;
-    background-color: magenta;
+    background-color: #e01bbd;
     float: left;
     margin-left: 20px;
     top: 50%;
@@ -184,8 +184,8 @@ footer {
 }
 
 footer:hover{
-    -webkit-box-shadow: 0px -3px 10px -2px magenta;
-    box-shadow: 0px -4px 10px -2px magenta;
+    -webkit-box-shadow: 0px -3px 10px -2px #e01bbd;
+    box-shadow: 0px -4px 10px -2px #e01bbd;
 }
 
 #footerInfo{
@@ -256,7 +256,7 @@ footer:hover{
 }
 
 .footerLinks p.visualMedia{
-    text-shadow: 0px 0px 8px magenta;
+    text-shadow: 0px 0px 8px #e01bbd;
     color: white;
 }
 
@@ -274,21 +274,38 @@ footer:hover{
     color: darkgrey;
 }
 
-.footerLinks a:link {
+.footerLinks a.gameDesign:link {
     color: lightgrey;
     text-decoration: none;
 }
 
-.footerLinks a:visited {
+.footerLinks a.gameDesign:visited {
     color: lightgrey;
 }
 
-.footerLinks a:hover {
-    color: cyan;
+.footerLinks a.gameDesign:hover {
+    text-shadow: 0px 0px 3px cyan;
     text-decoration: none;
 }
 
-.footerLinks a:active {
-    color: magenta;
+.footerLinks a.gameDesign:active {
+    text-decoration: underline;
+}
+
+.footerLinks a.visualMedia:link {
+    color: lightgrey;
     text-decoration: none;
+}
+
+.footerLinks a.visualMedia:visited {
+    color: lightgrey;
+}
+
+.footerLinks a.visualMedia:hover {
+    text-shadow: 0px 0px 3px #e01bbd;
+    text-decoration: none;
+}
+
+.footerLinks a.visualMedia:active {
+    text-decoration: underline;
 }

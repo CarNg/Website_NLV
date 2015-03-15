@@ -1,19 +1,18 @@
 a:link {
-    color: cyan;
-    text-decoration: none;
+    color: lightgray;
+    text-decoration: underline;
 }
 
 a:visited {
-    color: cyan;
+    color: lightgray;
 }
 
 a:hover {
-    color: magenta;
+    text-shadow: 0px 0px 5px cyan;
     text-decoration: none;
 }
 
 a:active {
-    color: magenta;
     text-decoration: underline;
 }
 
@@ -38,6 +37,8 @@ a:active {
     margin: 0px 0px 10px 20px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
+    color: lightgray;
+    background-color: black;
 }
 
 #vmImage{
@@ -46,11 +47,11 @@ a:active {
     width: 440px;
     height: 300px;
     margin: 0px 20px 20px 0px;
-    background-color: magenta;    
+    background-color: #e01bbd;    
 }
 
 #vmImage:hover{
-    box-shadow: 0 0 10px magenta;
+    box-shadow: 0 0 10px #e01bbd;
 }
 
 #vmText{
@@ -61,6 +62,8 @@ a:active {
     margin: 0px 20px 10px 0px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
+    color: lightgray;
+    background-color: black;
 }
 
 #projects{
@@ -71,4 +74,6 @@ a:active {
     margin: 0px 20px 20px 0px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
+    color: lightgray;
+    background-color: black;
 }

@@ -1,13 +1,14 @@
 a:link {
-    color: lightgray;
+    color: #fff2f2;
     text-decoration: underline;
 }
 
 a:visited {
-    color: lightgray;
+    color: #fff2f2;
 }
 
 a:hover {
+    color: white;
     text-shadow: 0px 0px 5px #e01bbd;
     text-decoration: none;
 }
@@ -43,10 +44,13 @@ a:active {
 }
 
 #all:hover{
+    color: white;
     text-shadow: 0px 0px 7px #e01bbd;
+    text-decoration: none;
 }
 
 #all.selected{
+    color: white;
     text-shadow: 0px 0px 7px #e01bbd;
     text-decoration: none;
 }
@@ -58,10 +62,13 @@ a:active {
 }
 
 #photo:hover{
+    color: white;
     text-shadow: 0px 0px 7px #e01bbd;
+    text-decoration: none;
 }
 
 #photo.selected{
+    color: white;
     text-shadow: 0px 0px 7px #e01bbd;
     text-decoration: none;
 }
@@ -73,10 +80,13 @@ a:active {
 }
 
 #video:hover{
+    color: white;
     text-shadow: 0px 0px 7px #e01bbd;
+    text-decoration: none;
 }
 
 #video.selected{
+    color: white;
     text-shadow: 0px 0px 7px #e01bbd;
     text-decoration: none;
 }
@@ -88,10 +98,13 @@ a:active {
 }
 
 #web:hover{
+    color: white;
     text-shadow: 0px 0px 7px #e01bbd;
+    text-decoration: none;
 }
 
 #web.selected{
+    color: white;
     text-shadow: 0px 0px 7px #e01bbd;
     text-decoration: none;
 }
@@ -103,10 +116,13 @@ a:active {
 }
 
 #graphic:hover{
+    color: white;
     text-shadow: 0px 0px 7px #e01bbd;
+    text-decoration: none;
 }
 
 #graphic.selected{
+    color: white;
     text-shadow: 0px 0px 7px #e01bbd;
     text-decoration: none;
 }
@@ -154,7 +170,7 @@ section{
     transition: all 0.8s ease-in-out;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
-    color: lightgray;
+    color: #fff2f2;
 }
 
 .photography.hide{
@@ -178,7 +194,7 @@ section{
     transition: all 0.8s ease-in-out;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
-    color: lightgray;
+    color: #fff2f2;
 }
 
 .videography.hide{
@@ -202,7 +218,7 @@ section{
     transition: all 0.8s ease-in-out;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
-    color: lightgray;
+    color: #fff2f2;
 }
 
 .webDesign.hide{
@@ -226,7 +242,7 @@ section{
     transition: all 0.8s ease-in-out;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
-    color: lightgray;
+    color: #fff2f2;
 }
 
 .graphicDesign.hide{
@@ -236,7 +252,7 @@ section{
 }
 
 .link{
-    color: lightgray;
+    color: #fff2f2;
     text-decoration: underline;
 }
 

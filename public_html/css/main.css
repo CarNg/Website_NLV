@@ -16,7 +16,9 @@ body {
 }
 
 header{
-    background-color: black;
+    background-image: url("../images/bkd_header_normal.png");
+    background-position: center;
+    background-color: #131313;
     position: fixed;
     top: 0px;
     z-index: 3;
@@ -24,11 +26,11 @@ header{
     width: 100%;
     min-width: 960px;
     overflow: hidden;
-    -webkit-transition: height 0.3s ease-in-out;
-    -moz-transition: height 0.3s ease-in-out;
-    -ms-transition: height 0.3s ease-in-out;
-    -o-transition: height 0.3s ease-in-out;
-    transition: height 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 header:hover{
@@ -36,7 +38,9 @@ header:hover{
 }
 
 header.shrink {
-    background: rgba(0, 0, 0, 0.7);
+    background-image: url("../images/bkd_header_shrunk.png");
+    background-position: center;
+    background-repeat: no-repeat;
     height: 50px;
 }
 
@@ -93,20 +97,11 @@ header.shrink {
 }
 
 #navLogo{
-    background: url("../images/nav_logo.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    display: block;
     position: relative;
     width: 240px;
     height: 100px;
-    background-color: #e01bbd;
     float: left;
     margin-left: 20px;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
 }
 
 #navVisual{
@@ -170,7 +165,9 @@ main {
 }
 
 footer {
-    background-color: black;
+    background-image: url("../images/bkd_footer.png");
+    background-position: center;
+    background-color: #131313;
     position: relative;
     clear: both;
     height: 50px;
@@ -235,7 +232,7 @@ footer:hover{
     padding-left: 6px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 13px;
-    color: lightgray;
+    color: #fff2f2;
 }
 
 .footerLinks p{
@@ -284,6 +281,7 @@ footer:hover{
 }
 
 .footerLinks a.gameDesign:hover {
+    color: white;
     text-shadow: 0px 0px 3px cyan;
     text-decoration: none;
 }
@@ -302,6 +300,7 @@ footer:hover{
 }
 
 .footerLinks a.visualMedia:hover {
+    color: white;
     text-shadow: 0px 0px 3px #e01bbd;
     text-decoration: none;
 }

@@ -1,13 +1,14 @@
 a:link {
-    color: lightgray;
+    color: #fff2f2;
     text-decoration: underline;
 }
 
 a:visited {
-    color: lightgray;
+    color: #fff2f2;
 }
 
 a:hover {
+    color: white;
     text-shadow: 0px 0px 5px cyan;
     text-decoration: none;
 }

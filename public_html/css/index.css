@@ -1,13 +1,14 @@
 a:link {
-    color: lightgray;
+    color: #fff2f2;
     text-decoration: underline;
 }
 
 a:visited {
-    color: lightgray;
+    color: #fff2f2;
 }
 
 a:hover {
+    color: white;
     text-shadow: 0px 0px 5px cyan;
     text-decoration: none;
 }
@@ -37,8 +38,8 @@ a:active {
     margin: 0px 0px 10px 20px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
-    color: lightgray;
-    background-color: black;
+    color: #fff2f2;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 #vmImage{
@@ -62,8 +63,8 @@ a:active {
     margin: 0px 20px 10px 0px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
-    color: lightgray;
-    background-color: black;
+    color: #fff2f2;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 #projects{
@@ -74,6 +75,6 @@ a:active {
     margin: 0px 20px 20px 0px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
-    color: lightgray;
-    background-color: black;
+    color: #fff2f2;
+    background: rgba(0, 0, 0, 0.5);
 }

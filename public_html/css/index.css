@@ -21,7 +21,7 @@ a:active {
     position: relative;
     float: left;
     width: 440px;
-    height: 300px;
+    height: 440px;
     margin: 0px 0px 20px 20px;
     background-color: cyan;
 }
@@ -33,12 +33,14 @@ a:active {
 #gdText{
     position: relative;
     float: left;
-    width: 440px;
-    height: 255px;
+    width: 380px;
+    height: 380px;
     margin: 0px 0px 10px 20px;
+    padding: 30px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
     color: #fff2f2;
+    text-align: center;
     background: rgba(0, 0, 0, 0.5);
 }
 
@@ -46,7 +48,7 @@ a:active {
     position: relative;
     float: right;
     width: 440px;
-    height: 300px;
+    height: 440px;
     margin: 0px 20px 20px 0px;
     background-color: #e01bbd;    
 }
@@ -58,12 +60,14 @@ a:active {
 #vmText{
     position: relative;
     float: right;
-    width: 440px;
-    height: 255px;
+    width: 380px;
+    height: 380px;
     margin: 0px 20px 10px 0px;
+    padding: 30px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
     color: #fff2f2;
+    text-align: center;
     background: rgba(0, 0, 0, 0.5);
 }
 

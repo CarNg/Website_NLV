@@ -11,6 +11,7 @@
         <link href="css/index.css" rel="stylesheet"/>
         <script src="javascript/jquery-1.11.2.js"></script>
         <script src="javascript/headerFooter.js"></script>
+        <script src="javascript/indexImages.js"></script>
     </head>
     
     <body>
@@ -19,46 +20,52 @@
         <main>
             <div id='headerPush'></div>
             
-            <div id="gdImage"></div>
-            <div id="vmImage"></div>
-            <div id="gdText">
-                <span style="font-size:20px; text-shadow: 0px 0px 8px cyan; color: white;"><b>Game Design</b></span><br>
-                <br>Over the course of my MSc, I developed and designed a number of digital as well as non-digital games
-                both as a group and as solo projects. Learning about game development and game design has been a new
-                and exciting journey and I am thrilled to be able to share some of these projects with you.
-                Click image for more information.<br>
+            <div id="gdImage">
+                <div class="overlay" onmouseover='showOverlay(this)' onmouseout='removeOverlay(this)'>
+                <span style="font-size:25px; text-shadow: 0px 0px 8px cyan; color: white;"><b>Game Design</b></span><br>
+                <br>I began my love affair with game design during the course of my MSc where I developed and designed a
+                number of digital as well as non-digital games. Learning about game development and game design has been
+                a new and exciting adventure and I am thrilled to be able to share some of these projects with you.<br>
                 
-                <br>*NB As these projects are a part of college assignments from a game design and games programming POV,
-                original audio and art work was not implemented. Therefore, some art and audio work from these projects
-                are sourced from across the internet. Information on each project regarding this will be expanded on individually.
+                <br><b>NB:</b> As these projects were a part of college assignments from a game design and games programming POV,
+                original audio and art work weren't always implemented. Therefore, some art and audio work from these projects
+                are from external sources. Information on each project regarding this will be expanded on individually.<br>
+                
+                <br><span style="font-size:20px"><a class="gameLinks" href="gamedesign.html">View</a></span>
+                </div>
             </div>
             
-            <div id="vmText">
-                <span style="font-size:20px; text-shadow: 0px 0px 8px #e01bbd; color: white;"><b>Visual Media</b></span><br>
-                <br>Both my undergraduate and postgraduate courses have helped me gain experience in all forms of visual media.
-                My undergraduate course allowed me to work in photography, videography, web and graphic design;
-                leaving me with skills in Photoshop, InDesign, Illustrator, HTML and CSS, Premiere and Final Cut.<br>
-                <br>My postgraduate course offered me the opportunity to delve further into videography by working with After Effects.
-                The course has also allowed me to gain a further understanding of web design and web building with the addition of Javascript.
-                Examples of my work can be found by clicking the image above.
+            <div id="vmImage">
+                 <div class="overlay"  onmouseover='showOverlay(this)' onmouseout='removeOverlay(this)'>
+                <span style="font-size:25px; text-shadow: 0px 0px 8px #e01bbd; color: white;"><b>Visual Media</b></span><br>
+                <br>Visual Communication has always been something that has fascinated me and I've always wanted to explore it.
+                Luckily, I was able to do that during my undergraduate and postgraduate courses. I was able to delve into the
+                world of visual media, from photography and videography to web design and graphic design.<br>
+                
+                <br>Between the two courses and a number of personal projects, I've been able to work with and gain skills
+                in a number of softwares and languages. This includes the Adobe Creative Suite and Final Cut, and languages
+                such as HTML, CSS, Javascript and JQuery.<br>
+                <br>
+                <br><span style="font-size:20px"><a class="visualLinks" href="visualmedia.html">View</a></span>
+                </div>
             </div>
             
             <div id='projects'>
-                <span style="font-size:18px; text-shadow: 0px 0px 8px #e01bbd; color: white;"><b>Current Projects</b></span><br>
-                Right now, we’re working on <a href="gameprojects/sketch.html">Sketch</a> 2.0. Audio and art for the game will be completely revamped and
+                <span style="font-size:20px; text-shadow: 0px 0px 8px #e01bbd; color: white;"><b>Current Projects</b></span><br>
+                <br>Right now, we’re working on <a class="gameLinks" href="gameprojects/sketch.html">Sketch</a> 2.0. Audio and art for the game will be completely revamped and
                 there’ll be a few mechanic changes. There may or may not be new levels added too! Updates will follow soon! Not only this, but we’re also
-                working on <a href="gameprojects/anythingbut.html">Anything But Small Talk!</a>. Some refinements, artwork and possibly a prototype are
+                working on <a class="gameLinks" href="gameprojects/anythingbut.html">Anything But Small Talk!</a>. Some refinements, artwork and possibly a prototype are
                 on the way! Both of these games have been personal favourites to design and make so I'm excited to work on and share the games and ideas.
                 Lastly, ideas for new tabletop games are floating around left and right lately and I look forward to getting the time to design
                 and make a prototype soon. That is, as soon as Sketch and ABST! get their feet on the ground. So, stay tuned, updates and much more to come
                 soon!<br>
-                <br><span style="font-size:18px; text-shadow: 0px 0px 8px #e01bbd; color: white;"><b>Latest Project</b></span><br>
-                This Time Around, an exploration/interactive fiction game, is the latest project of Night Light Visuals. It was a year long
+                <br><span style="font-size:20px; text-shadow: 0px 0px 8px #e01bbd; color: white;"><b>Latest Project</b></span><br>
+                <br>This Time Around, an exploration/interactive fiction game, is the latest project of Night Light Visuals. It was a year long
                 project and by far, the largest. If you'd like to check it out, it is available now to download and play on
-                <a href='http://nightlightvisuals.itch.io/thistimearound'>itch.io</a> and you can find more
-                information on the game <a href="gameprojects/thistimearound.html">here</a>. If you give it a shot, we'd love to hear what you think!<br>
-                <br><span style="font-size:18px; text-shadow: 0px 0px 8px #e01bbd; color: white;"><b>Last but not least,</b></span><br>
-                I wanted to keep a spot on the home page to say a special thank you to Julie, Stevie, Conan, Becca and everyone who has been in front of or
+                <a class="gameLinks" href='http://nightlightvisuals.itch.io/thistimearound'>itch.io</a> and you can find more
+                information on the game <a class="gameLinks" href="gameprojects/thistimearound.html">here</a>. If you give it a shot, we'd love to hear what you think!<br>
+                <br><span style="font-size:20px; text-shadow: 0px 0px 8px #e01bbd; color: white;"><b>Last but not least,</b></span><br>
+                <br>I wanted to keep a spot on the home page to say a special thank you to Julie, Stevie, Conan, Becca and everyone who has been in front of or
                 behind the camera to help me with any of the projects featured on the site; and a huge thank you to anyone and everyone who I have played,
                 tested and worked with on a game. This site would be half of what it is without you.. Literally. So, thank you.
             </div>

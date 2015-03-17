@@ -155,11 +155,19 @@ section{
     transition: background-position 0.5s ease-in-out;    
 }
 
+.software{
+    background-color: white;
+    height: 50px;
+    width: auto;
+    margin-bottom: 10px;
+    color: black;
+}
+
 .photography{
     margin-bottom: 10px;
     height: auto;
     width: 960px;
-    max-height: 500px;
+    max-height: 700px;
     max-width: 960px;
     background-color: black;
     overflow: hidden;
@@ -183,7 +191,7 @@ section{
     margin-bottom: 10px;
     height: auto;
     width: 960px;
-    max-height: 500px;
+    max-height: 700px;
     max-width: 960px;
     background-color: black;
     overflow: hidden;
@@ -207,7 +215,7 @@ section{
     margin-bottom: 10px;
     height: auto;
     width: 960px;
-    max-height: 500px;
+    max-height: 700px;
     max-width: 960px;
     background-color: black;
     overflow: hidden;
@@ -231,7 +239,7 @@ section{
     margin-bottom: 10px;
     height: auto;
     width: 960px;
-    max-height: 500px;
+    max-height: 700px;
     max-width: 960px;
     background-color: black;
     overflow: hidden;

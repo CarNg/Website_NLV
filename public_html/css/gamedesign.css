@@ -113,10 +113,6 @@ section{
     transition: background-position 0.5s ease-in-out;
 }
 
-.thumbnail:hover{
-    background-position: 0px 0px;
-}
-
 .analogGames{
     overflow: hidden;
     max-height: 500px;
@@ -164,4 +160,26 @@ section{
     margin-bottom: 0px;
     max-width: 0px;
     max-height: 0px;
+}
+
+.overlay{
+    position: absolute;
+    width: 450px;
+    height: 235px;
+    padding: 45px 0px 0px 50px;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    cursor: default;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 18px;
+    color: #fff2f2;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.overlay.show{
+    opacity: 1;
 }

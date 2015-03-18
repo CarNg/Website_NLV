@@ -4,7 +4,7 @@
     width: 600px;
     height: 100px;
     margin: 0px 180px 10px 180px;
-    background-color: cyan;
+    background-color: #1bd6d8;
 }
 
 #socialMedia{
@@ -13,5 +13,9 @@
     width: 600px;
     height: 400px;
     margin: 0px 180px 20px 180px;
-    background-color: #e01bbd;
+    background-color: #e014bc;
+}
+
+#navContactOn.navButtonLight{
+    opacity: 1;
 }

@@ -9,7 +9,7 @@ a.gameLinks:visited {
 
 a.gameLinks:hover {
     color: white;
-    text-shadow: 0px 0px 5px cyan;
+    text-shadow: 0px 0px 5px #1bd6d8;
     text-decoration: none;
 }
 
@@ -28,7 +28,7 @@ a.visualLinks:visited {
 
 a.visualLinks:hover {
     color: white;
-    text-shadow: 0px 0px 5px #e01bbd;
+    text-shadow: 0px 0px 5px #e014bc;
     text-decoration: none;
 }
 
@@ -43,11 +43,11 @@ a.visualLinks:active {
     height: 440px;
     padding: 0px;
     margin: 0px 0px 20px 20px;
-    background-color: cyan;
+    background-color: #1bd6d8;
 }
 
 #gdImage:hover{
-    box-shadow: 0 0 10px cyan;
+    box-shadow: 0 0 10px #1bd6d8;
 }
 
 #vmImage{
@@ -56,11 +56,11 @@ a.visualLinks:active {
     width: 440px;
     height: 440px;
     margin: 0px 20px 20px 0px;
-    background-color: #e01bbd;    
+    background-color: #e014bc;    
 }
 
 #vmImage:hover{
-    box-shadow: 0 0 10px #e01bbd;
+    box-shadow: 0 0 10px #e014bc;
 }
 
 .overlay{
@@ -75,11 +75,11 @@ a.visualLinks:active {
     font-size: 16px;
     color: #fff2f2;
     text-align: left;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .overlay.show{

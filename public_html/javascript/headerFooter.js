@@ -12,6 +12,26 @@ if ($(this).scrollTop() >= 150){
     }
 });
 
+function expandHeader(){
+    if($('header').hasClass("shrink")){
+        $('header').removeClass("shrink");
+    }
+}
+
+function shrinkHeader(){
+    if ($(window).scrollTop() >= 150){  
+        $('header').addClass("shrink");
+    }
+}
+
+function showOverlay(overlay){
+    $(overlay).addClass("show");
+}
+
+function removeOverlay(overlay){
+    $(overlay).removeClass("show");
+}
+
 var expanded = false;
 
 function footerExpand(){

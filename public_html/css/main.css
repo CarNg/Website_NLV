@@ -34,14 +34,14 @@ header{
 }
 
 header:hover{
-    box-shadow: 0px 3px 10px cyan;
+    box-shadow: 0px 3px 8px #1bd6d8;
 }
 
 header.shrink {
     background-image: url("../images/bkd_header_shrunk.png");
     background-position: center;
     background-repeat: no-repeat;
-    height: 50px;
+    height: 60px;
 }
 
 #navLinks{
@@ -52,10 +52,10 @@ header.shrink {
     margin: 0px auto 0px auto;
 }
 
-#navAbout{
-    background: url("../images/btn_nav_about.png");
+.navButtons{
     display: block;
     position: relative;
+    overflow: hidden;
     width: 150px;
     height: 50px;
     float: left;
@@ -66,34 +66,56 @@ header.shrink {
     transform: translateY(-50%);
 }
 
-#navAbout:hover {
-    background-position: 0px -50px;
-}
-
-#navAbout:active {
-    background-position: 0px 0px;
-}
-
-#navGame{
-    background: url("../images/btn_nav_games.png");
+.navButtonLight{
     display: block;
     position: relative;
     width: 150px;
     height: 50px;
-    float: left;
-    margin-left: 20px;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
+    opacity: 0;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
 
-#navGame:hover {
+.navButtonLight.show{
+    opacity: 1;
+}
+
+#navAboutOff{
+    background-image: url(../images/btn_nav_about.png);
+}
+
+#navAboutOn{
+    background-image: url(../images/btn_nav_about.png);
+    background-position: 0px -50px;
+}
+#navGameOff{
+    background-image: url(../images/btn_nav_games.png);
+}
+
+#navGameOn{
+    background-image: url(../images/btn_nav_games.png);
     background-position: 0px -50px;
 }
 
-#navGame:active {
-    background-position: 0px 0px;
+#navVisualOff{
+    background-image: url(../images/btn_nav_visual.png);
+}
+
+#navVisualOn{
+    background-image: url(../images/btn_nav_visual.png);
+    background-position: 0px -50px;
+}
+
+#navContactOff{
+    background-image: url(../images/btn_nav_contact.png);
+}
+
+#navContactOn{
+    background-image: url(../images/btn_nav_contact.png);
+    background-position: 0px -50px;
 }
 
 #navLogo{
@@ -102,51 +124,6 @@ header.shrink {
     height: 100px;
     float: left;
     margin-left: 20px;
-}
-
-#navVisual{
-    background: url("../images/btn_nav_visual.png");
-    display: block;
-    position: relative;
-    width: 150px;
-    height: 50px;
-    float: left;
-    margin-left: 20px;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
-#navVisual:hover {
-    background-position: 0px -50px;
-    
-}
-
-#navVisual:active {
-    background-position: 0px 0px;
-}
-
-#navContact{
-    background: url("../images/btn_nav_contact.png");
-    display: block;
-    position: relative;
-    width: 150px;
-    height: 50px;
-    float: left;
-    margin-left: 20px;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
-#navContact:hover {
-    background-position: 0px -50px;
-}
-
-#navContact:active {
-    background-position: 0px 0px;
 }
 
 #headerPush{
@@ -182,8 +159,8 @@ footer {
 }
 
 footer:hover{
-    -webkit-box-shadow: 0px -3px 10px -2px #e01bbd;
-    box-shadow: 0px -4px 10px -2px #e01bbd;
+    -webkit-box-shadow: 0px -3px 10px -2px #e014bc;
+    box-shadow: 0px -4px 10px -2px #e014bc;
 }
 
 #footerInfo{
@@ -249,12 +226,12 @@ footer:hover{
 }
 
 .footerLinks p.gameDesign{
-    text-shadow: 0px 0px 8px cyan;
+    text-shadow: 0px 0px 8px #1bd6d8;
     color: white;
 }
 
 .footerLinks p.visualMedia{
-    text-shadow: 0px 0px 8px #e01bbd;
+    text-shadow: 0px 0px 8px #e014bc;
     color: white;
 }
 
@@ -283,7 +260,7 @@ footer:hover{
 
 .footerLinks a.gameDesign:hover {
     color: white;
-    text-shadow: 0px 0px 3px cyan;
+    text-shadow: 0px 0px 3px #1bd6d8;
     text-decoration: none;
 }
 
@@ -302,7 +279,7 @@ footer:hover{
 
 .footerLinks a.visualMedia:hover {
     color: white;
-    text-shadow: 0px 0px 3px #e01bbd;
+    text-shadow: 0px 0px 3px #e014bc;
     text-decoration: none;
 }
 

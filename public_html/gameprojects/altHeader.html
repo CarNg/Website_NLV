@@ -6,11 +6,23 @@
     
     <body>
         <div id=navLinks>
-                <a id="navAbout" href="../about.html"></a>
-                <a id="navGame" href="../gamedesign.html"></a>
-                <a id="navLogo" href="../index.html"></a>
-                <a id="navVisual" href="../visualmedia.html"></a>
-                <a id="navContact" href="../contact.html"></a>
+            <a id="navAboutOff" class="navButtons" href="../about.html">
+                <div id="navAboutOn" class="navButtonLight" onmouseover='showOverlay(this)' onmouseout='removeOverlay(this)'></div>
+            </a>
+            
+            <a id="navGameOff" class="navButtons" href="../gamedesign.html">
+                <div id="navGameOn" class="navButtonLight" onmouseover='showOverlay(this)' onmouseout='removeOverlay(this)'></div>
+            </a>
+            
+            <a id="navLogo" href="../index.html"></a>
+            
+            <a id="navVisualOff" class="navButtons" href="../visualmedia.html">
+                <div id="navVisualOn" class="navButtonLight" onmouseover='showOverlay(this)' onmouseout='removeOverlay(this)'></div>
+            </a>
+            
+            <a id="navContactOff" class="navButtons" href="../contact.html">
+                <div id="navContactOn" class="navButtonLight" onmouseover='showOverlay(this)' onmouseout='removeOverlay(this)'></div>
+            </a>
         </div>
     </body>
 </html>

@@ -1,3 +1,7 @@
+#navGameOn.navButtonLight{
+    opacity: 1;
+}
+
 a:link {
     color: #fff2f2;
     text-decoration: underline;
@@ -9,7 +13,7 @@ a:visited {
 
 a:hover {
     color: white;
-    text-shadow: 0px 0px 5px cyan;
+    text-shadow: 0px 0px 5px #1bd6d8;
     text-decoration: none;
 }
 
@@ -23,7 +27,7 @@ a:active {
     height: 60px;
     width: 205px;
     background-color: black;
-    background-image: url("../images/bkd_filter_gd.png");
+    background-image: url("../images/bkd_game_filter.png");
     color: lightgrey;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 17px;
@@ -38,13 +42,13 @@ a:active {
 
 #all:hover{
     color: white;
-    text-shadow: 0px 0px 7px cyan;
+    text-shadow: 0px 0px 7px #1bd6d8;
     text-decoration: none;
 }
 
 #all.selected{
     color: white;
-    text-shadow: 0px 0px 7px cyan;
+    text-shadow: 0px 0px 7px #1bd6d8;
     text-decoration: none;
 }
 
@@ -56,13 +60,13 @@ a:active {
 
 #analog:hover{
     color: white;
-    text-shadow: 0px 0px 7px cyan;
+    text-shadow: 0px 0px 7px #1bd6d8;
     text-decoration: none;
 }
 
 #analog.selected{
     color: white;
-    text-shadow: 0px 0px 7px cyan;
+    text-shadow: 0px 0px 7px #1bd6d8;
     text-decoration: none;
 }
 
@@ -74,13 +78,13 @@ a:active {
 
 #digital:hover{
     color: white;
-    text-shadow: 0px 0px 7px cyan;
+    text-shadow: 0px 0px 7px #1bd6d8;
     text-decoration: none;
 }
 
 #digital.selected{
     color: white;
-    text-shadow: 0px 0px 7px cyan;
+    text-shadow: 0px 0px 7px #1bd6d8;
     text-decoration: none;
 }
 
@@ -120,6 +124,7 @@ section{
     height: auto;
     width: 960px;
     margin-bottom: 10px;
+    background-image: url('../images/bkd_game_sections.png');
     background-color: black;
     -webkit-transition: all 0.8s ease-in-out;
     -moz-transition: all 0.8s ease-in-out;
@@ -145,6 +150,7 @@ section{
     width: 960px;
     margin-bottom: 10px;
     padding-left: 0px;
+    background-image: url('../images/bkd_game_sections.png');
     background-color: black;
     -webkit-transition: all 0.8s ease-in-out;
     -moz-transition: all 0.8s ease-in-out;

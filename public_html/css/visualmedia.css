@@ -1,3 +1,7 @@
+#navVisualOn.navButtonLight{
+    opacity: 1;
+}
+
 a:link {
     color: #fff2f2;
     text-decoration: underline;
@@ -9,7 +13,7 @@ a:visited {
 
 a:hover {
     color: white;
-    text-shadow: 0px 0px 5px #e01bbd;
+    text-shadow: 0px 0px 5px #e014bc;
     text-decoration: none;
 }
 
@@ -30,7 +34,7 @@ a:active {
     width: 504px;
     padding-left: 20px;
     background-color: black;
-    background-image: url("../images/bkd_filter_vm.png");
+    background-image: url("../images/bkd_visual_filter.png");
     color: lightgrey;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 17px;
@@ -45,13 +49,13 @@ a:active {
 
 #all:hover{
     color: white;
-    text-shadow: 0px 0px 7px #e01bbd;
+    text-shadow: 0px 0px 7px #e014bc;
     text-decoration: none;
 }
 
 #all.selected{
     color: white;
-    text-shadow: 0px 0px 7px #e01bbd;
+    text-shadow: 0px 0px 7px #e014bc;
     text-decoration: none;
 }
 
@@ -63,13 +67,13 @@ a:active {
 
 #photo:hover{
     color: white;
-    text-shadow: 0px 0px 7px #e01bbd;
+    text-shadow: 0px 0px 7px #e014bc;
     text-decoration: none;
 }
 
 #photo.selected{
     color: white;
-    text-shadow: 0px 0px 7px #e01bbd;
+    text-shadow: 0px 0px 7px #e014bc;
     text-decoration: none;
 }
 
@@ -81,13 +85,13 @@ a:active {
 
 #video:hover{
     color: white;
-    text-shadow: 0px 0px 7px #e01bbd;
+    text-shadow: 0px 0px 7px #e014bc;
     text-decoration: none;
 }
 
 #video.selected{
     color: white;
-    text-shadow: 0px 0px 7px #e01bbd;
+    text-shadow: 0px 0px 7px #e014bc;
     text-decoration: none;
 }
 
@@ -99,13 +103,13 @@ a:active {
 
 #web:hover{
     color: white;
-    text-shadow: 0px 0px 7px #e01bbd;
+    text-shadow: 0px 0px 7px #e014bc;
     text-decoration: none;
 }
 
 #web.selected{
     color: white;
-    text-shadow: 0px 0px 7px #e01bbd;
+    text-shadow: 0px 0px 7px #e014bc;
     text-decoration: none;
 }
 
@@ -117,13 +121,13 @@ a:active {
 
 #graphic:hover{
     color: white;
-    text-shadow: 0px 0px 7px #e01bbd;
+    text-shadow: 0px 0px 7px #e014bc;
     text-decoration: none;
 }
 
 #graphic.selected{
     color: white;
-    text-shadow: 0px 0px 7px #e01bbd;
+    text-shadow: 0px 0px 7px #e014bc;
     text-decoration: none;
 }
 

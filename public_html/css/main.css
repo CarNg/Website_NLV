@@ -176,6 +176,12 @@ footer:hover{
     height: 30px;
     color: white;
     text-align: center;
+    background-image: url("../images/btn_footer_expandOff.png");
+    cursor: pointer;
+}
+
+#expandButton:hover{
+    background-image: url("../images/btn_footer_expandOn.png");
 }
 
 .footerSections{

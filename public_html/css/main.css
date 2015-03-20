@@ -178,10 +178,23 @@ footer:hover{
     text-align: center;
     background-image: url("../images/btn_footer_expandOff.png");
     cursor: pointer;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 #expandButton:hover{
     background-image: url("../images/btn_footer_expandOn.png");
+}
+
+#expandButton.close{
+    background-image: url("../images/btn_footer_closeOff.png");
+}
+
+#expandButton.close:hover{
+    background-image: url("../images/btn_footer_closeOn.png");
 }
 
 .footerSections{

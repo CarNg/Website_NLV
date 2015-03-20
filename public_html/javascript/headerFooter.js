@@ -38,12 +38,14 @@ function footerExpand(){
     if(!expanded){
         $('footer').css("padding-bottom", "270px");
         $('.footerSections').addClass("expand");
+        $('#expandButton').addClass("close").delay(500);
         $('html, body').animate({scrollTop:$(document).height()}, 'slow');
         expanded = true;
     }
     else{
         $('footer').css("padding-bottom", "0px");
         $('.footerSections').removeClass("expand");
+        $('#expandButton').removeClass("close").delay(500);
         expanded = false;
     }
 }

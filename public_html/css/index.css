@@ -1,3 +1,7 @@
+header.shrink {
+    background-image: url("../images/bkd_header_index.png");
+}
+
 a.gameLinks:link {
     color: #fff2f2;
     text-decoration: underline;

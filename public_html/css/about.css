@@ -33,12 +33,22 @@ a:active {
 #cvDownload{
     position: relative;
     float: left;
-    width: 960px;
+    width: 200px;
     height: 50px;
-    margin-bottom: 20px;
+    margin: 0pc 0px 20px 380px;
     text-align: center;
     line-height: 50px;
-    background-color: black;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 18px;
+    background-color: black;
+    background-image: url(../images/bkd_about_downloadOff.png);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#cvDownload:hover{
+    background-image: url(../images/bkd_about_downloadOn.png);
 }

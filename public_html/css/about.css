@@ -25,7 +25,8 @@ a:active {
     position: relative;
     float: left;
     width: 960px;
-    height: 850px;
+    height: 1410px;
+    background-image: url(../images/bkd_about_cv.png);
     margin-bottom: 10px;
     background-color: #1bd6d8;
 }

@@ -1,19 +1,47 @@
+a:link {
+    color: lightgrey;
+    text-decoration: none;
+    font-family: "Sanchez", Times, serif;
+    font-size: 15px;
+}
+
+a:visited {
+    color: lightgrey;
+}
+
+a:hover {
+    color: white;
+    text-shadow: 0px 0px 10px #e014bc;
+    text-decoration: none;
+}
+
 #email{
     position: relative;
     float: left;
-    width: 600px;
-    height: 100px;
+    width: 415px;
+    height: 65px;
     margin: 0px 180px 10px 180px;
-    background-color: #1bd6d8;
+    padding: 35px 0px 0px 189px;
+    background-color: black;
+    background-image: url(../images/bkd_contact_email.png);
 }
 
 #socialMedia{
     position: relative;
     float: left;
-    width: 600px;
-    height: 400px;
+    width: 505px;
+    height: 225px;
     margin: 0px 180px 20px 180px;
-    background-color: #e014bc;
+    padding: 110px 0px 0px 95px;
+    background-color: black;
+    background-image: url(../images/bkd_contact_social.png);
+}
+
+.socialLinks{
+    position: relative;
+    float: left;
+    width: 160px;
+    height: 20px;
 }
 
 #navContactOn.navButtonLight{

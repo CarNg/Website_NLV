@@ -26,9 +26,10 @@ a:active {
 
 #images{
     width: 960px;
-    height: 300px;
+    height: auto;
     margin-bottom: 10px;
-    background-color: #1bd6d8;
+    background-color: black;
+    padding: 10px 0px 8px 0px;
 }
 
 aside{

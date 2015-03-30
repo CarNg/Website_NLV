@@ -160,11 +160,17 @@ section{
 }
 
 .software{
-    background-color: white;
+    background-color: black;
     height: 50px;
-    width: auto;
     margin-bottom: 10px;
-    color: black;
+    color: white;
+}
+
+.icon{
+    background-color: magenta;
+    height: 50px;
+    width: 50px;
+    margin: 0px;
 }
 
 .photography{
@@ -183,6 +189,7 @@ section{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
     color: #fff2f2;
+    background-image: url("../images/bkd_visual_sections.png");
 }
 
 .photography.hide{
@@ -207,6 +214,7 @@ section{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
     color: #fff2f2;
+    background-image: url("../images/bkd_visual_sections.png");
 }
 
 .videography.hide{
@@ -231,6 +239,7 @@ section{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
     color: #fff2f2;
+    background-image: url("../images/bkd_visual_sections.png");
 }
 
 .webDesign.hide{
@@ -255,6 +264,7 @@ section{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
     color: #fff2f2;
+    background-image: url("../images/bkd_visual_sections.png");
 }
 
 .graphicDesign.hide{
@@ -267,5 +277,3 @@ section{
     color: #fff2f2;
     text-decoration: underline;
 }
-
-

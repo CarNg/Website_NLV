@@ -25,10 +25,11 @@ a:active {
     position: relative;
     float: left;
     width: 960px;
-    height: 1410px;
-    background-image: url(../images/bkd_about_cv.png);
+    height: 1270px;
+    background-image: url(../images/bkd_about_about.png);
     margin-bottom: 10px;
-    background-color: #1bd6d8;
+    background-color: black;
+    border-radius: 3px;
 }
 
 #cvDownload{

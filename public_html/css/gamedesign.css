@@ -37,55 +37,46 @@ a:active {
 #all{
     cursor: pointer;
     color: lightgrey;
-    text-decoration: underline;
 }
 
 #all:hover{
     color: white;
     text-shadow: 0px 0px 7px #1bd6d8;
-    text-decoration: none;
 }
 
 #all.selected{
     color: white;
     text-shadow: 0px 0px 7px #1bd6d8;
-    text-decoration: none;
 }
 
 #analog{
     cursor: pointer;
     color: lightgrey;
-    text-decoration: underline;
 }
 
 #analog:hover{
     color: white;
     text-shadow: 0px 0px 7px #1bd6d8;
-    text-decoration: none;
 }
 
 #analog.selected{
     color: white;
     text-shadow: 0px 0px 7px #1bd6d8;
-    text-decoration: none;
 }
 
 #digital{
     cursor: pointer;
     color: lightgrey;
-    text-decoration: underline;
 }
 
 #digital:hover{
     color: white;
     text-shadow: 0px 0px 7px #1bd6d8;
-    text-decoration: none;
 }
 
 #digital.selected{
     color: white;
     text-shadow: 0px 0px 7px #1bd6d8;
-    text-decoration: none;
 }
 
 section{

@@ -41,94 +41,83 @@ a:active {
     line-height: 60px;
 }
 
+#filter a:link{
+    text-decoration: none;
+}
+
 #all{
     cursor: pointer;
     color: lightgrey;
-    text-decoration: underline;
 }
 
 #all:hover{
     color: white;
     text-shadow: 0px 0px 7px #e014bc;
-    text-decoration: none;
 }
 
 #all.selected{
     color: white;
     text-shadow: 0px 0px 7px #e014bc;
-    text-decoration: none;
 }
 
 #photo{
     cursor: pointer;
     color: lightgrey;
-    text-decoration: underline;
 }
 
 #photo:hover{
     color: white;
     text-shadow: 0px 0px 7px #e014bc;
-    text-decoration: none;
 }
 
 #photo.selected{
     color: white;
     text-shadow: 0px 0px 7px #e014bc;
-    text-decoration: none;
 }
 
 #video{
     cursor: pointer;
     color: lightgrey;
-    text-decoration: underline;
 }
 
 #video:hover{
     color: white;
     text-shadow: 0px 0px 7px #e014bc;
-    text-decoration: none;
 }
 
 #video.selected{
     color: white;
     text-shadow: 0px 0px 7px #e014bc;
-    text-decoration: none;
 }
 
 #web{
     cursor: pointer;
     color: lightgrey;
-    text-decoration: underline;
 }
 
 #web:hover{
     color: white;
     text-shadow: 0px 0px 7px #e014bc;
-    text-decoration: none;
 }
 
 #web.selected{
     color: white;
     text-shadow: 0px 0px 7px #e014bc;
-    text-decoration: none;
 }
 
 #graphic{
     cursor: pointer;
     color: lightgrey;
-    text-decoration: underline;
 }
 
 #graphic:hover{
     color: white;
     text-shadow: 0px 0px 7px #e014bc;
-    text-decoration: none;
 }
 
 #graphic.selected{
     color: white;
     text-shadow: 0px 0px 7px #e014bc;
-    text-decoration: none;
 }
 
 section{

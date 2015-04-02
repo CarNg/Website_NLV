@@ -21,12 +21,20 @@ a:active {
     text-decoration: underline;
 }
 
+body{
+    background: black url("../images/bkd_cyan_main.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 #filter{
     margin-bottom: 10px;
     padding-left: 20px;
     height: 60px;
     width: 205px;
-    background-color: black;
+    border-radius: 3px;
     background-image: url("../images/bkd_game_filter.png");
     color: lightgrey;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -98,6 +106,7 @@ section{
     float: right;
     background-image: url("../images/ThumbnailTemp.png");
     background-position: 0px -330px;
+    border-radius: 3px;
     height: 280px;
     width: 500px;
     margin: 30px 0px 30px 30px;
@@ -115,8 +124,8 @@ section{
     height: auto;
     width: 960px;
     margin-bottom: 10px;
+    border-radius: 3px;
     background-image: url('../images/bkd_game_sections.png');
-    background-color: black;
     -webkit-transition: all 0.8s ease-in-out;
     -moz-transition: all 0.8s ease-in-out;
     -ms-transition: all 0.8s ease-in-out;
@@ -141,8 +150,8 @@ section{
     width: 960px;
     margin-bottom: 10px;
     padding-left: 0px;
+    border-radius: 3px;
     background-image: url('../images/bkd_game_sections.png');
-    background-color: black;
     -webkit-transition: all 0.8s ease-in-out;
     -moz-transition: all 0.8s ease-in-out;
     -ms-transition: all 0.8s ease-in-out;
@@ -164,7 +173,7 @@ section{
     width: 450px;
     height: 235px;
     padding: 45px 0px 0px 50px;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.85);
     opacity: 0;
     cursor: default;
     font-family: "Trebuchet MS", Helvetica, sans-serif;

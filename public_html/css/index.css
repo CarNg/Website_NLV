@@ -40,6 +40,14 @@ a.visualLinks:active {
     text-decoration: underline;
 }
 
+body{
+    background: black url("../images/bkd_index_main.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 #gdImage{
     position: relative;
     float: left;
@@ -47,7 +55,8 @@ a.visualLinks:active {
     height: 440px;
     padding: 0px;
     margin: 0px 0px 20px 20px;
-    background-color: #1bd6d8;
+    background-image: url(../images/bkd_index_games.png);
+    border-radius: 3px;
 }
 
 #gdImage:hover{
@@ -60,7 +69,8 @@ a.visualLinks:active {
     width: 440px;
     height: 440px;
     margin: 0px 20px 20px 0px;
-    background-color: #e014bc;    
+    background-image: url(../images/bkd_index_visuals.png);
+    border-radius: 3px;
 }
 
 #vmImage:hover{
@@ -72,8 +82,9 @@ a.visualLinks:active {
     width: 380px;
     height: 380px;
     padding: 30px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.9);
     opacity: 0;
+    border-radius: 3px;
     cursor: default;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
@@ -101,4 +112,5 @@ a.visualLinks:active {
     font-size: 16px;
     color: #fff2f2;
     background: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
 }

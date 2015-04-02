@@ -17,37 +17,66 @@ a:active {
     text-decoration: underline;
 }
 
+body{
+    background: black url("../images/bkd_projects_main.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 #title{
     width: 960px;
     height: 50px;
-    background-color: black;
-    margin-bottom: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
 }
 
 #images{
     width: 960px;
     height: auto;
-    margin-bottom: 10px;
-    background-color: black;
+    margin-bottom: 20px;
     padding: 10px 0px 8px 0px;
 }
 
 aside{
     position: relative;
     float: right;
-    width: 290px;
-    height: 200px;
-    margin-left: 10px;
+    width: 255px;
+    height: auto;
+    margin: 0px 10px 0px 5px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 3px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
+    color: #fff2f2;
 }
 
 article{
     position: relative;
     float: left;
-    width: 650px;
+    width: 590px;
     height: auto;
-    margin-bottom: 20px;
+    margin: 0px 0px 20px 10px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 3px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
+    color: #fff2f2;
+}
+
+.titles{
+    text-shadow: 0px 0px 8px #1bd6d8;
+    color: white;
+    font-size: 19px;
+    line-height: 200%;
+}
+
+.headings{
+    text-shadow: 0px 0px 8px #1bd6d8;
+    color: white;
+    font-size: 16px;
+    line-height: 150%;
 }

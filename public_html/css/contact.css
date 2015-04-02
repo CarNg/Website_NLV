@@ -1,18 +1,43 @@
-a:link {
+#email a:link {
     color: lightgrey;
     text-decoration: none;
     font-family: "Sanchez", Times, serif;
     font-size: 15px;
 }
 
-a:visited {
+#email a:visited {
     color: lightgrey;
 }
 
-a:hover {
+#email a:hover {
     color: white;
     text-shadow: 0px 0px 10px #e014bc;
     text-decoration: none;
+}
+
+.socialLinks a:link {
+    color: lightgrey;
+    text-decoration: none;
+    font-family: "Sanchez", Times, serif;
+    font-size: 15px;
+}
+
+.socialLinks a:visited {
+    color: lightgrey;
+}
+
+.socialLinks a:hover {
+    color: white;
+    text-shadow: 0px 0px 10px #e014bc;
+    text-decoration: none;
+}
+
+body{
+    background: black url("../images/bkd_magenta_main.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #email{
@@ -22,7 +47,7 @@ a:hover {
     height: 65px;
     margin: 0px 180px 10px 180px;
     padding: 35px 0px 0px 189px;
-    background-color: black;
+    border-radius: 3px;
     background-image: url(../images/bkd_contact_email.png);
 }
 
@@ -33,7 +58,7 @@ a:hover {
     height: 225px;
     margin: 0px 180px 20px 180px;
     padding: 110px 0px 0px 95px;
-    background-color: black;
+    border-radius: 3px;
     background-image: url(../images/bkd_contact_social.png);
 }
 

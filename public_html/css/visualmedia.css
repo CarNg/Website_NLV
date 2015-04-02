@@ -21,6 +21,14 @@ a:active {
     text-decoration: underline;
 }
 
+body{
+    background: black url("../images/bkd_magenta_main.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .anchor{
   display: block;
   height: 80px;
@@ -33,12 +41,12 @@ a:active {
     height: 60px;
     width: 504px;
     padding-left: 20px;
-    background-color: black;
     background-image: url("../images/bkd_visual_filter.png");
     color: lightgrey;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 17px;
     line-height: 60px;
+    border-radius: 3px;
 }
 
 #filter a:link{
@@ -126,6 +134,7 @@ section{
     height: auto;
     width: 370px;
     margin: 30px;
+    border-radius: 3px;
 }
 
 .video{
@@ -141,6 +150,7 @@ section{
     width: 500px;
     margin: 30px 0px 30px 30px;
     background-color: white;
+    border-radius: 3px;
     -webkit-transition: background-position 0.5s ease-in-out;
     -moz-transition: background-position 0.5s ease-in-out;
     -ms-transition: background-position 0.5s ease-in-out;
@@ -149,7 +159,6 @@ section{
 }
 
 .software{
-    background-color: black;
     height: 50px;
     margin-bottom: 10px;
     color: white;
@@ -168,7 +177,7 @@ section{
     width: 960px;
     max-height: 700px;
     max-width: 960px;
-    background-color: black;
+    border-radius: 3px;
     overflow: hidden;
     -webkit-transition: all 0.8s ease-in-out;
     -moz-transition: all 0.8s ease-in-out;
@@ -193,7 +202,7 @@ section{
     width: 960px;
     max-height: 700px;
     max-width: 960px;
-    background-color: black;
+    border-radius: 3px;
     overflow: hidden;
     -webkit-transition: all 0.8s ease-in-out;
     -moz-transition: all 0.8s ease-in-out;
@@ -218,7 +227,7 @@ section{
     width: 960px;
     max-height: 700px;
     max-width: 960px;
-    background-color: black;
+    border-radius: 3px;
     overflow: hidden;
     -webkit-transition: all 0.8s ease-in-out;
     -moz-transition: all 0.8s ease-in-out;
@@ -243,7 +252,7 @@ section{
     width: 960px;
     max-height: 700px;
     max-width: 960px;
-    background-color: black;
+    border-radius: 3px;
     overflow: hidden;
     -webkit-transition: all 0.8s ease-in-out;
     -moz-transition: all 0.8s ease-in-out;

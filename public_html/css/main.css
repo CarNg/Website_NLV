@@ -234,7 +234,7 @@ footer:hover{
 .footerLinks p{
     margin: 0px;
     padding: 0px;
-    color: lightgrey;
+    color: #fff2f2;
     line-height: 28px;
     -webkit-transition: margin 0.3s ease-in-out;
     -moz-transition: margin 0.3s ease-in-out;
@@ -268,12 +268,12 @@ footer:hover{
 }
 
 .footerLinks a.gameDesign:link {
-    color: lightgrey;
+    color: #fff2f2;
     text-decoration: none;
 }
 
 .footerLinks a.gameDesign:visited {
-    color: lightgrey;
+    color: #fff2f2;
 }
 
 .footerLinks a.gameDesign:hover {
@@ -287,12 +287,12 @@ footer:hover{
 }
 
 .footerLinks a.visualMedia:link {
-    color: lightgrey;
+    color: #fff2f2;
     text-decoration: none;
 }
 
 .footerLinks a.visualMedia:visited {
-    color: lightgrey;
+    color: #fff2f2;
 }
 
 .footerLinks a.visualMedia:hover {

@@ -1,5 +1,5 @@
 header.shrink {
-    background-image: url("../images/bkd_header_index.png");
+    background-image: url("../images/bkd_header_index.jpg");
 }
 
 a.gameLinks:link {
@@ -41,7 +41,7 @@ a.visualLinks:active {
 }
 
 body{
-    background: black url("../images/bkd_index_main.png") no-repeat center center fixed; 
+    background: black url("../images/bkd_index_main.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -55,7 +55,7 @@ body{
     height: 440px;
     padding: 0px;
     margin: 0px 0px 20px 20px;
-    background-image: url(../images/bkd_index_games.png);
+    background-image: url(../images/bkd_index_games.jpg);
     border-radius: 3px;
 }
 
@@ -69,7 +69,7 @@ body{
     width: 440px;
     height: 440px;
     margin: 0px 20px 20px 0px;
-    background-image: url(../images/bkd_index_visuals.png);
+    background-image: url(../images/bkd_index_visuals.jpg);
     border-radius: 3px;
 }
 
@@ -111,6 +111,6 @@ body{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
     color: #fff2f2;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     border-radius: 3px;
 }

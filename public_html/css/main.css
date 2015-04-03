@@ -15,7 +15,7 @@ body {
 }
 
 header{
-    background-image: url("../images/bkd_header_normal.png");
+    background-image: url("../images/bkd_header_normal.jpg");
     background-position: center;
     background-color: #131313;
     position: fixed;
@@ -37,7 +37,7 @@ header:hover{
 }
 
 header.shrink {
-    background-image: url("../images/bkd_header_shrunk.png");
+    background-image: url("../images/bkd_header_shrunk.jpg");
     background-position: center;
     background-repeat: no-repeat;
     height: 60px;
@@ -142,7 +142,7 @@ main {
 }
 
 footer {
-    background-image: url("../images/bkd_footer.png");
+    background-image: url("../images/bkd_footer.jpg");
     background-position: center;
     background-color: #131313;
     position: relative;

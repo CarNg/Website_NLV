@@ -7,8 +7,8 @@ $(document).ready(function() {
 				type: 'over'
 			},
 			thumbs	: {
-				width	: 50,
-				height	: 50
+				width	: 60,
+				height	: 60
 			}
 		}
 	});

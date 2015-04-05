@@ -11,7 +11,7 @@
         <link href="css/visualmedia.css" rel="stylesheet"/>
         <script src="javascript/jquery-1.11.2.js"></script>
         <script src="javascript/headerFooter.js"></script>
-        <script src="javascript/visualMediaFilter.js"></script>
+        <script src="javascript/visualMedia.js"></script>
         
         <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" media="screen" />
         <script src="fancybox/source/jquery.fancybox.pack.js"></script>
@@ -52,9 +52,12 @@
                     <a href="https://github.com/CarNg/Website_NLV">Night Light Visuals on GitHub</a>
             </section>
                 <div class="thumbnail">
-                    <a class="fancybox-thumb" href="images/fullImg_visual_nlv.jpg" title="Night Light Visuals Site">
-                        <img src="images/thmb_visual_nlv.jpg" alt="Night Light Visuals Site Screenshot" height="280" width="500"/>
-                    </a>
+                    <div class='overlay' onmouseover='showOverlay(this)' onmouseout='removeOverlay(this)'>
+                        <a class="fancybox-thumb" href="images/fullImg_visual_nlv.jpg" title="Night Light Visuals Site" style="display: block; height: 100%">
+                            <br><br><br><br><span style="text-shadow: 0px 0px 8px #e014bc; color: white;"><b>View Image</b></span>
+                        </a>
+                    </div>
+                    <img src="images/thmb_visual_nlv.jpg" alt="Night Light Visuals Site Screenshot" height="280" width="500"/>
                 </div>
             </div>
             
@@ -135,11 +138,14 @@
                 </section>
                 
                 <div class="thumbnail">
-                    <a class="fancybox-thumb" rel="theCoffeeCompany" href="images/fullImg_visual_coffeecompany1.jpg" title="Homepage of The Coffee Company Website.">
-                        <img src="images/thmb_visual_coffeecompany.jpg" alt="Homepage of The Coffee Company Website." height="280" width="500"/>
-                    </a>
-                    <a class="fancybox-thumb" rel="theCoffeeCompany" href="images/fullImg_visual_coffeecompany2.jpg" title="Staff Page of The Coffee Company Website."></a>
-                    <a class="fancybox-thumb" rel="theCoffeeCompany" href="images/fullImg_visual_coffeecompany3.jpg" title="Products Page of The Coffee Company Website."></a>
+                    <div class='overlay' onmouseover='showOverlay(this)' onmouseout='removeOverlay(this)'>
+                        <a class="fancybox-thumb" rel="theCoffeeCompany" href="images/fullImg_visual_coffeecompany1.jpg" title="Homepage of The Coffee Company Website" style="display: block; height: 100%">
+                            <br><br><br><br><span style="text-shadow: 0px 0px 8px #e014bc; color: white;"><b>View Images</b></span>
+                        </a>
+                    </div>
+                    <img src="images/thmb_visual_coffeecompany.jpg" alt="Homepage of The Coffee Company Website" height="280" width="500"/>
+                    <a class="fancybox-thumb" rel="theCoffeeCompany" href="images/fullImg_visual_coffeecompany2.jpg" title="Staff Page"></a>
+                    <a class="fancybox-thumb" rel="theCoffeeCompany" href="images/fullImg_visual_coffeecompany3.jpg" title="Products Page"></a>
                 </div>
             </div>
             
@@ -159,11 +165,14 @@
                     <a href="https://dl.dropboxusercontent.com/u/218018936/The%20Coffee%20Company/index.html">The Coffee Company Website</a>
             </section>
             <div class="thumbnail">
-                <a class="fancybox-thumb" rel="coffeeBrand" href="images/fullImg_visual_coffeebrand5.jpg" title="Back of The Coffee Company Loyalty Card">
-                        <img src="images/thmb_visual_coffeebrand.jpg" alt="Back of The Coffee Company Loyalty Card" height="280" width="500"/>
-                </a>
-                <a class="fancybox-thumb" rel="coffeeBrand" href="images/fullImg_visual_coffeebrand4.jpg" title="Front of The Coffee Company Loyalty Card"></a>
-                <a class="fancybox-thumb" rel="coffeeBrand" href="images/fullImg_visual_coffeebrand3.jpg" title="The Cofee Company Extended Brand"></a>
+                <div class='overlay' onmouseover='showOverlay(this)' onmouseout='removeOverlay(this)'>
+                        <a class="fancybox-thumb" rel="coffeeBrand" href="images/fullImg_visual_coffeebrand5.jpg" title="Back of The Coffee Company Loyalty Card" style="display: block; height: 100%">
+                            <br><br><br><br><span style="text-shadow: 0px 0px 8px #e014bc; color: white;"><b>View Images</b></span>
+                        </a>
+                </div>
+                <img src="images/thmb_visual_coffeebrand.jpg" alt="Back of The Coffee Company Loyalty Card" height="280" width="500"/>
+                <a class="fancybox-thumb" rel="coffeeBrand" href="images/fullImg_visual_coffeebrand4.jpg" title="Front of Loyalty Card"></a>
+                <a class="fancybox-thumb" rel="coffeeBrand" href="images/fullImg_visual_coffeebrand3.jpg" title="Extended Brand"></a>
                 <a class="fancybox-thumb" rel="coffeeBrand" href="images/fullImg_visual_coffeebrand2.jpg" title="Design Strategy and Guidelines"></a>
                 <a class="fancybox-thumb" rel="coffeeBrand" href="images/fullImg_visual_coffeebrand1.jpg" title="The Coffee Company Logos"></a>
             </div>
@@ -178,7 +187,22 @@
                         <br>One of the prints, ‘Have The Wish I Wish Tonight’, was later auctioned off as part of The SCOOP Art Auction in 2012.
                     </p>
                 </section>
-            <div class="thumbnail">Thumbnail</div>
+            <div class="thumbnail">
+                <div class='overlay' onmouseover='showOverlay(this)' onmouseout='removeOverlay(this)'>
+                        <a class="fancybox-thumb" rel="exhibition" href="images/fullImg_visual_exhibition1.jpg" title="Star Light" style="display: block; height: 100%">
+                            <br><br><br><br><span style="text-shadow: 0px 0px 8px #e014bc; color: white;"><b>View Images</b></span>
+                        </a>
+                </div>
+                    <img src="images/thmb_visual_exhibition.jpg" alt="I'll Leave the Nightlight On' Exhibition" height="280" width="500"/>
+                    <a class="fancybox-thumb" rel="exhibition" href="images/fullImg_visual_exhibition2.jpg" title="Star Bright"></a>
+                    <a class="fancybox-thumb" rel="exhibition" href="images/fullImg_visual_exhibition3.jpg" title="Have The Wish I Wish Tonight"></a>
+                    <a class="fancybox-thumb" rel="exhibition" href="images/fullImg_visual_exhibition4.jpg" title="I Wish I May"></a>
+                    <a class="fancybox-thumb" rel="exhibition" href="images/fullImg_visual_exhibition5.jpg" title="I Wish I Might"></a>
+                    <a class="fancybox-thumb" rel="exhibition" href="images/fullImg_visual_exhibition6.jpg" title="Series' Artist Statement"></a>
+                    <a class="fancybox-thumb" rel="exhibition" href="images/fullImg_visual_exhibition7.jpg" title="Exhibition"></a>
+                    <a class="fancybox-thumb" rel="exhibition" href="images/fullImg_visual_exhibition8.jpg" title="Exhibition"></a>
+                    <a class="fancybox-thumb" rel="exhibition" href="images/fullImg_visual_exhibition9.jpg" title="Exhibition"></a>
+            </div>
             </div>
             
             <div class="graphicDesign">
@@ -193,13 +217,15 @@
                 </div>
             </section>
             <div class="thumbnail">
-                <a class="fancybox-thumb" rel="nlvbrand" href="images/fullImg_visual_nlvbrand1.jpg" title="Front of Previous Night Light Visuals Business Card">
-                        <img src="images/thmb_visual_nlvbrand.jpg" alt="Front of Previous Night Light Visuals Business Card.
-                             " height="280" width="500"/>
-                </a>
-                <a class="fancybox-thumb" rel="nlvbrand" href="images/fullImg_visual_nlvbrand2.jpg" title="Back of Previous Night Light Visuals Business Card"></a>
-                <a class="fancybox-thumb" rel="nlvbrand" href="images/fullImg_visual_nlvbrand3.jpg" title="Front of Previous Night Light Visuals Portfolio DVD"></a>
-                <a class="fancybox-thumb" rel="nlvbrand" href="images/fullImg_visual_nlvbrand4.jpg" title="Back of Previous Night Light Visuals Portfolio DVD"></a>
+                <div class='overlay' onmouseover='showOverlay(this)' onmouseout='removeOverlay(this)'>
+                        <a class="fancybox-thumb" rel="nlvbrand" href="images/fullImg_visual_nlvbrand1.jpg" title="Front of Previous Branding Business Card" style="display: block; height: 100%">
+                            <br><br><br><br><span style="text-shadow: 0px 0px 8px #e014bc; color: white;"><b>View Images</b></span>
+                        </a>
+                </div>
+                <img src="images/thmb_visual_nlvbrand.jpg" alt="Front of Previous Branding Business Card" height="280" width="500"/>
+                <a class="fancybox-thumb" rel="nlvbrand" href="images/fullImg_visual_nlvbrand2.jpg" title="Back of Business Card"></a>
+                <a class="fancybox-thumb" rel="nlvbrand" href="images/fullImg_visual_nlvbrand3.jpg" title="Front of Previous Branding Portfolio DVD"></a>
+                <a class="fancybox-thumb" rel="nlvbrand" href="images/fullImg_visual_nlvbrand4.jpg" title="Back of Previous Portfolio DVD"></a>
             </div>
             </div>
             
@@ -234,7 +260,15 @@
                     <img src="images/software_visual_Ps.png" alt="Photoshop" title="Photoshop"/>
                 </div>
             </section>
-            <div class="thumbnail">Thumbnail</div>
+            <div class="thumbnail">
+                <div class='overlay' onmouseover='showOverlay(this)' onmouseout='removeOverlay(this)'>
+                        <a class="fancybox-thumb" rel="findingHome" href="images/fullImg_visual_findingHome1.jpg" title="Finding Home Movie Poster" style="display: block; height: 100%">
+                            <br><br><br><br><span style="text-shadow: 0px 0px 8px #e014bc; color: white;"><b>View Images</b></span>
+                        </a>
+                </div>
+                <img src="images/thmb_visual_findinghome.jpg" alt="Finding Home Movie Poster" height="280" width="500"/>
+                <a class="fancybox-thumb" rel="findingHome" href="images/fullImg_visual_findingHome2.jpg" title="Finding Home Summary"></a>
+            </div>
             </div>
             
             <div class="photography">
@@ -248,7 +282,9 @@
                         <br>A series of photographs taken while exploring the streets of Hong Kong and Dublin.
                     </p>
                 </section>
-            <div class="thumbnail">Thumbnail</div>
+            <div class="thumbnail">
+                <img src="images/thmb_visual_street.jpg" alt="Street Photography" height="280" width="500"/>
+            </div>
             </div>
             
             <div class="videography">
@@ -280,7 +316,19 @@
                     <img src="images/software_visual_PsId.png" alt="Photoshop and InDesign" title="Photoshop and InDesign"/>
                 </div>
             </section>
-            <div class="thumbnail">Thumbnail</div>
+            <div class="thumbnail">
+                <div class='overlay' onmouseover='showOverlay(this)' onmouseout='removeOverlay(this)'>
+                        <a class="fancybox-thumb" rel="spiesAlbum" href="images/fullImg_visual_album1.jpg" title="Album Cover" style="display: block; height: 100%">
+                            <br><br><br><br><span style="text-shadow: 0px 0px 8px #e014bc; color: white;"><b>View Images</b></span>
+                        </a>
+                </div>
+                    <img src="images/thmb_visual_album.jpg" alt="Spies and Friends Album Cover" height="280" width="500"/>
+                    <a class="fancybox-thumb" rel="spiesAlbum" href="images/fullImg_visual_album2.jpg" title="Album Leaflet"></a>
+                    <a class="fancybox-thumb" rel="spiesAlbum" href="images/fullImg_visual_album3.jpg" title="Album Leaflet Centerfold"></a>
+                    <a class="fancybox-thumb" rel="spiesAlbum" href="images/fullImg_visual_album4.jpg" title="Album Leaflet"></a>
+                    <a class="fancybox-thumb" rel="spiesAlbum" href="images/fullImg_visual_album5.jpg" title="Behind CD Holder"></a>
+                    <a class="fancybox-thumb" rel="spiesAlbum" href="images/fullImg_visual_album6.jpg" title="Back of Album"></a>
+            </div>
             </div>
             
             <div class="photography">
@@ -295,7 +343,9 @@
                     <br>A series of light paintings, long exposures and night photographs.
                 </p>
             </section>
-            <div class="thumbnail">Thumbnail</div>
+            <div class="thumbnail">
+                <img src="images/thmb_visual_night.gif" alt="Night Photography" height="280" width="500"/>
+            </div>
             </div>
             
             <div class="photography">
@@ -312,7 +362,9 @@
                     <br> A series of portraits taken in and out of the studio, tactfully and candidly.
                 </p>
             </section>
-            <div class="thumbnail">Thumbnail</div>
+            <div class="thumbnail">
+                <img src="images/thmb_visual_portraits.jpg" alt="Portrait Photography" height="280" width="500"/>
+            </div>
             </div>
             
             <div class="graphicDesign">
@@ -327,10 +379,13 @@
                 </div>
             </section>
             <div class="thumbnail">
-                <a class="fancybox-thumb" rel="cinematography" href="images/fullImg_visual_cinematography1.jpg" title="Business card front.">
-                            <img src="images/thmb_visual_cinematography.jpg" alt="Business card front." height="280" width="500"/>
+                <div class='overlay' onmouseover='showOverlay(this)' onmouseout='removeOverlay(this)'>
+                        <a class="fancybox-thumb" rel="cinematography" href="images/fullImg_visual_cinematography1.jpg" title="Business card front" style="display: block; height: 100%">
+                            <br><br><br><br><span style="text-shadow: 0px 0px 8px #e014bc; color: white;"><b>View Images</b></span>
                         </a>
-                        <a class="fancybox-thumb" rel="cinematography" href="images/fullImg_visual_cinematography2.jpg" title="Business card back."></a>
+                </div>
+                <img src="images/thmb_visual_cinematography.jpg" alt="Business card front" height="280" width="500"/>
+                <a class="fancybox-thumb" rel="cinematography" href="images/fullImg_visual_cinematography2.jpg" title="Back"></a>
                 </div>
             </div>
             

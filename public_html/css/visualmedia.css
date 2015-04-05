@@ -275,3 +275,29 @@ section{
     color: #fff2f2;
     text-decoration: underline;
 }
+
+.overlay{
+    position: absolute;
+    width: 500px;
+    height: 280px;
+    opacity: 0;
+    cursor: default;
+    background: rgba(0, 0, 0, 0.2);
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 28px;
+    color: #fff2f2;
+    text-align: center;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.overlay.show{
+    opacity: 1;
+}
+
+.overlay a:link{
+    text-decoration: none;
+}

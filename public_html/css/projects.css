@@ -33,18 +33,47 @@ body{
 }
 
 #images{
-    width: 960px;
+    position: relative;
+    float: left;
+    width: 590px;
     height: auto;
-    margin-bottom: 20px;
-    padding: 10px 0px 8px 0px;
+    margin: 0px 0px 20px 5px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 3px;
+}
+
+.overlay{
+    position: absolute;
+    width: 590px;
+    height: 250px;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.3);
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 28px;
+    color: #fff2f2;
+    text-align: center;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.overlay.show{
+    opacity: 1;
+}
+
+.overlay a:link{
+    text-decoration: none;
 }
 
 aside{
     position: relative;
     float: right;
-    width: 255px;
+    width: 265px;
     height: auto;
-    margin: 0px 10px 0px 5px;
+    margin: 0px 5px 0px 5px;
     padding: 20px;
     background: rgba(0, 0, 0, 0.8);
     border-radius: 3px;
@@ -58,8 +87,8 @@ article{
     float: left;
     width: 590px;
     height: auto;
-    margin: 0px 0px 20px 10px;
-    padding: 20px;
+    margin: 0px 0px 20px 5px;
+    padding: 10px 20px 20px 20px;
     background: rgba(0, 0, 0, 0.8);
     border-radius: 3px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;

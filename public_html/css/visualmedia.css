@@ -31,9 +31,8 @@ body{
 
 .anchor{
   display: block;
-  height: 80px;
-  margin-top: -80px;
-  visibility: hidden;
+  top: 280px;
+  position: relative;
 }
 
 #filter{
@@ -42,7 +41,7 @@ body{
     width: 504px;
     padding-left: 20px;
     background-image: url("../images/bkd_visual_filter.png");
-    color: lightgrey;
+    color: #fff2f2;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 17px;
     line-height: 60px;
@@ -55,7 +54,7 @@ body{
 
 #all{
     cursor: pointer;
-    color: lightgrey;
+    color: #fff2f2;
 }
 
 #all:hover{
@@ -70,7 +69,7 @@ body{
 
 #photo{
     cursor: pointer;
-    color: lightgrey;
+    color: #fff2f2;
 }
 
 #photo:hover{
@@ -85,7 +84,7 @@ body{
 
 #video{
     cursor: pointer;
-    color: lightgrey;
+    color: #fff2f2;
 }
 
 #video:hover{
@@ -100,7 +99,7 @@ body{
 
 #web{
     cursor: pointer;
-    color: lightgrey;
+    color: #fff2f2;
 }
 
 #web:hover{
@@ -115,7 +114,7 @@ body{
 
 #graphic{
     cursor: pointer;
-    color: lightgrey;
+    color: #fff2f2;
 }
 
 #graphic:hover{
@@ -281,7 +280,6 @@ section{
     width: 500px;
     height: 280px;
     opacity: 0;
-    cursor: default;
     background: rgba(0, 0, 0, 0.2);
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 28px;

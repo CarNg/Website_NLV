@@ -1,12 +1,12 @@
 #email a:link {
-    color: lightgrey;
+    color: #fff2f2;
     text-decoration: none;
     font-family: "Sanchez", Times, serif;
     font-size: 15px;
 }
 
 #email a:visited {
-    color: lightgrey;
+    color: #fff2f2;
 }
 
 #email a:hover {
@@ -16,14 +16,14 @@
 }
 
 .socialLinks a:link {
-    color: lightgrey;
+    color: #fff2f2;
     text-decoration: none;
     font-family: "Sanchez", Times, serif;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .socialLinks a:visited {
-    color: lightgrey;
+    color: #fff2f2;
 }
 
 .socialLinks a:hover {

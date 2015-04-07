@@ -101,6 +101,14 @@ body{
     opacity: 1;
 }
 
+.overlay a:link{
+    text-decoration: none;
+}
+
+.overlay p{
+    text-shadow: none;
+}
+
 #projects{
     position: relative;
     float: right;

@@ -36,7 +36,7 @@ body{
     width: 205px;
     border-radius: 3px;
     background-image: url("../images/bkd_game_filter.png");
-    color: lightgrey;
+    color: #fff2f2;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 17px;
     line-height: 60px;
@@ -44,7 +44,7 @@ body{
 
 #all{
     cursor: pointer;
-    color: lightgrey;
+    color: #fff2f2;
 }
 
 #all:hover{
@@ -59,7 +59,7 @@ body{
 
 #analog{
     cursor: pointer;
-    color: lightgrey;
+    color: #fff2f2;
 }
 
 #analog:hover{
@@ -74,7 +74,7 @@ body{
 
 #digital{
     cursor: pointer;
-    color: lightgrey;
+    color: #fff2f2;
 }
 
 #digital:hover{
@@ -159,7 +159,7 @@ section{
     transition: all 0.8s ease-in-out;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
-    color: lightgrey;
+    color: #fff2f2;
 }
 
 .digitalGames.hide{
@@ -171,14 +171,10 @@ section{
 .overlay{
     position: absolute;
     width: 450px;
-    height: 235px;
-    padding: 45px 0px 0px 50px;
-    background: rgba(0, 0, 0, 0.85);
+    height: 255px;
+    padding: 25px 0px 0px 50px;
+    background: rgba(0, 0, 0, 0.6);
     opacity: 0;
-    cursor: default;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 18px;
-    color: #fff2f2;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
@@ -188,4 +184,16 @@ section{
 
 .overlay.show{
     opacity: 1;
+}
+
+.overlay a:link{
+    text-decoration: none;
+}
+
+.overlay p{
+    text-shadow: none;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 5px;
 }

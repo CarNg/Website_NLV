@@ -17,6 +17,12 @@ a:active {
     text-decoration: underline;
 }
 
+.returnLink {
+    color: white;
+    font-size: 19px;
+    line-height: 150%;
+}
+
 body{
     background: black url("../images/bkd_projects_main.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;

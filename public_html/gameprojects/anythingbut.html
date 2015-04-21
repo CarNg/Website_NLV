@@ -11,6 +11,11 @@
         <script src="../javascript/webGames.js"></script>
         <script src="altHeaderFooter.js"></script>
         
+        <link rel="stylesheet" href="../fancybox/source/jquery.fancybox.css" media="screen" />
+        <script src="../fancybox/source/jquery.fancybox.pack.js"></script>
+        <link rel="stylesheet" href="../fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="../fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+        <script src="../javascript/fancybox.js"></script>
     </head>
     
     <body>
@@ -32,24 +37,40 @@
             </aside>
             
             <article>
-                <i>We're currently working on a print and play prototype of ABST!,
-                    concept art and cards will be posted here as soon as they're completed. Check out our 
-                    <a href="http://nightlightvisuals.tumblr.com">Tumblr</a> for updates on what we're working on at the moment.</i><br>
+                <i>We're currently working on a print and play of ABST!. Check out our 
+                   <a href="http://nightlightvisuals.tumblr.com">Tumblr</a> for updates
+                   on the progress.</i><br>
             </article>
             
             <article>
                 <b><span class="titles">Anything But Small Talk!</span></b><br>
                     Anything But Small Talk! (ABST!) is the first game I designed and it is a personal favourite.
-                    It is inspired by three things: the idea behind YouTube channel SourceFedNERD’s ‘<a href="https://www.youtube.com/playlist?list=PL8kma_GjQgWzaxB_M9NU7JSuu0bbiidUC">Table Talk</a>' series,
-                    Apollo Robbins' TED Talk on '<a href="https://www.ted.com/talks/apollo_robbins_the_art_of_misdirection#t-29859">The Art of Misdirection</a>' and my own introversion. These three very different
-                    topics were on my mind at the time of designing the game and something had me believing they could work
-                    well together. So, this storytelling card game was born based on the themes of memory, misdirection and conversation.
+                    It is inspired by three things: the idea behind YouTube channel SourceFedNERD’s
+                    ‘<a href="https://www.youtube.com/playlist?list=PL8kma_GjQgWzaxB_M9NU7JSuu0bbiidUC">Table Talk</a>' series,
+                    Apollo Robbins' TED Talk on '<a href="https://www.ted.com/talks/apollo_robbins_the_art_of_misdirection#t-29859">The Art of Misdirection</a>'
+                    and introversion. These three very different topics were on my mind at the time of designing the game
+                    and something had me believing they could work well together. So, this storytelling card game was born based
+                    on the themes of memory, misdirection and conversation.
+            </article>
+            
+            <div id="images">
+                <div class='overlay' onmouseover='showOverlay(this)' onmouseout='removeOverlay(this)'>
+                    <a class="fancybox-thumb" rel="abst" href="../images/caps_games_abst1.png" title="Card design mock up - ABST!" style="display: block; height: 100%">
+                        <br><br><br><span style="text-shadow: 0px 0px 8px #1bd6d8; color: white;"><b>View Images</b></span>
+                    </a>
+                </div>
+                <img src="../images/caps_thmb_abst.jpg" height="250" width="590"/>
+                <a class="fancybox-thumb" rel="abst" href="../images/caps_games_abst2.png" title="Back of the card - ABST!"></a>
+                <a class="fancybox-thumb" rel="abst" href="../images/caps_games_abst3.png" title="Front of the card - ABST!"></a>
+            </div>
+            
+            <article>
                 <p><b><span class="titles">Why 'ABST!'?</span></b><br>
                     I had been reading about introversion when I came across the quote “Introverts do not hate small talk because we
                     dislike people. We hate small talk because we hate the barrier it creates between people." by
                     <a href="http://www.amazon.co.uk/Introvert-Power-Inner-Hidden-Strength/dp/1402280882/ref=sr_1_1?ie=UTF8&amp;qid=1408838253&amp;sr=8-1&amp;keywords=introvert+power">Laurie Helgoe</a>.
-                    That was something that I felt so strongly about that I wanted to design a game that would allow people to skip
-                    the small talk. I wanted a game that would encourage us to listen and give players the opportunity
+                    That was something that I related to so strongly that I wanted to design a game that would allow people to skip
+                    the small talk and encourage us to listen to and give players the opportunity
                     to get to know each other and share stories. This is where the series ‘Table Talk’ comes in.
                 </p>
                 <p>The way the series works is that fans would submit topics or questions for the hosts to then discuss/answer.
@@ -61,23 +82,25 @@
                     why not have fun with it.
                 </p>
                 <p><b><span class="titles">Gameplay</span></b><br>
-                    So how does it all work? Each card will have a conversation topic and a question relating to the topic. Let's use a
-                    simple example: the topic may be ‘Your favourite movie and why’ and the question can be ‘Who is the director of the movie?’. Player
-                    one will draw a card and share <b>only</b> the topic with the rest of the group. Then for the next *five minutes, the group can
-                    discuss and talk about that topic. During this time, the player who drew the card <b>must</b> mention the answer to the question
-                    on their card at least twice. In this example, they must mention the name of the director twice. Their objective is to
-                    do so subtly. This is where ‘Apollo Robbin’s ‘The Art of Misdirection’ comes in. Your goal is the misdirect the other players from
-                    the real question. You can do this by steering the conversation away from the director and towards the actors.
+                    So how does it all work? Each card will have two parts - talk and listen. On the talk side is the conversation topic. The listen
+                    side will then have a question relating to that topic. Let's use a simple example: on the talk side may be ‘Your favourite movie
+                    and why?’ and the listen side can be ‘Who is the director of the movie?’. Player one will draw a card and share <b>only</b> the topic
+                    (talk) with the rest of the group. Then for the next *five minutes, the group will discuss and talk about that topic. During this time,
+                    the player who drew the card <b>must</b> clearly mention the answer to the question on the listen side of their card at least twice.
+                    In this example, they must mention the name of the director twice. Their objective is to do so subtly. This is where ‘Apollo Robbin’s
+                    ‘The Art of Misdirection’ comes in. Your goal is the misdirect the other players from the real question. You can do this by steering the
+                    conversation away from the director and towards the actors or mentioning other aspects numerous times.
                 </p>
                 <p>
                     Meanwhile, the goal of the other players is to (try and) figure out what the question is and remember the answer. All the while, trying
-                    to distract the other players from doing the same. Once every player has had a go, each player will ask the question that is on
-                    their card. E.g After four rounds (as there are four players) player one will now ask everyone ‘Who is the director of my favourite
+                    to distract the other players from doing the same. Once every player has had a go, in the same order the cards were drawn,
+                    the question on the listen side of the cards will now be asked by the one who drew the card. For example,
+                    At the end of the round, player one will now ask everyone ‘Who is the director of my favourite
                     movie?’. For each wrong answer, player one will get a point. For every answer a player gets right, they get two points.
-                    The cycle continues and the first player to reach *10 points wins.
+                    This will continue till all players have asked their question. The first player to reach *10 points wins.
                 </p>
-                <p><b><span class="titles">*You can set the rules too!</span></b><br>
-                    ABST! is an extremely flexible game and there are many variants that can be tailored to suit the environment
+                <p><b><span class="titles">*You can tweak the rules too!</span></b><br>
+                    ABST! is a flexible game and there are many variants that can be tailored to suit the environment
                     you’re playing in. The above is simply a guideline. The asterisks indicates where alterations can be made. You can vary how long
                     each discussion is and how many points are required to win. You can even switch it up by changing the winning conditions.
                     You may decide that instead of first to x amount of points, you have most points after x amount of rounds. Or maybe it's game night
@@ -87,7 +110,7 @@
                 </p>
                 <p>
                     Finally, the topics are entirely customisable! We may be working on a prototype but that doesn't stop you guys from being creative.
-                    You make the decisions! The stories you share can be real or they can be made up.
+                    There will be blank cards provided so you make the decisions! The stories you share can be real or they can be made up.
                     They can be hypothetical topics or factual. The answers can be as serious or as silly and light-hearted as you want.
                     That’s all up to you, make it suit your game group, have fun with it! If you give the game a go, I'd love to hear about it.
                     Happy conversing!
@@ -101,8 +124,10 @@
                     a game that I wanted to play, I was designing it based on something I cared about deeply. It's for this reason that ABST! will
                     always have a soft spot in my heart.
                 </p>
+                
+                <a href="../gamedesign.html" style="padding-left: 200px; font-size: 18px; text-decoration: none;">Return to Game Design</a>
             </article>
-            
+                        
             <div id="footerPush"></div>
         </main>
                 

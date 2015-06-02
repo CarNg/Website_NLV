@@ -40,6 +40,25 @@ a.visualLinks:active {
     text-decoration: underline;
 }
 
+a.blogLinks:link {
+    color: #fff2f2;
+    text-decoration: underline;
+}
+
+a.blogLinks:visited {
+    color: #fff2f2;
+}
+
+a.blogLinks:hover {
+    color: white;
+    text-shadow: 0px 0px 5px white;
+    text-decoration: none;
+}
+
+a.gameLinks:active {
+    text-decoration: underline;
+}
+
 body{
     background: black url("../images/bkd_index_main.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -51,11 +70,12 @@ body{
 #gdImage{
     position: relative;
     float: left;
-    width: 440px;
-    height: 440px;
+    width: 310px;
+    height: 310px;
     padding: 0px;
-    margin: 0px 0px 20px 20px;
+    margin: 0px 15px 0px 0px;
     background-image: url(../images/bkd_index_games.jpg);
+    background-size: 310px, 310px;
     border-radius: 3px;
 }
 
@@ -65,11 +85,11 @@ body{
 
 #vmImage{
     position: relative;
-    float: right;
-    width: 440px;
-    height: 440px;
-    margin: 0px 20px 20px 0px;
+    float: left;
+    width: 310px;
+    height: 310px;
     background-image: url(../images/bkd_index_visuals.jpg);
+    background-size: 310px, 310px;
     border-radius: 3px;
 }
 
@@ -77,17 +97,32 @@ body{
     box-shadow: 0 0 10px #e014bc;
 }
 
+#blogImage {
+    position: relative;
+    float: left;
+    width: 310px;
+    height: 310px;
+    margin: 0px 15px 0px 0px;
+    background-image: url(../images/bkd_index_blog.png);
+    background-size: 310px, 310px;
+    border-radius: 3px;
+}
+
+#blogImage:hover{
+    box-shadow: 0 0 10px white;
+}
+
 .overlay{
     position: absolute;
-    width: 380px;
-    height: 380px;
+    width: 250px;
+    height: 250px;
     padding: 30px;
     background: rgba(0, 0, 0, 0.9);
     opacity: 0;
     border-radius: 3px;
     cursor: default;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 15.7px;
     color: #fff2f2;
     text-align: left;
     -webkit-transition: all 0.4s ease-in-out;
@@ -111,14 +146,15 @@ body{
 
 #projects{
     position: relative;
-    float: right;
-    width: 860px;
-    height: auto;
-    margin: 0px 20px 20px 0px;
+    float: left;
+    width: 250px;
+    height: 250px;
+    padding: 0px;
+    margin: 15px 0px 0px 0px;
+    border-radius: 3px;
     padding: 30px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 15.7px;
     color: #fff2f2;
     background: rgba(0, 0, 0, 0.7);
-    border-radius: 3px;
 }

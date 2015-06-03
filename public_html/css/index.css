@@ -148,7 +148,7 @@ body{
     position: relative;
     float: left;
     width: 575px;
-    height: auto;
+    height: 270px;
     margin-top: 15px;
     padding: 30px;
     border-radius: 3px;
@@ -163,7 +163,8 @@ body{
     position: relative;
     float: right;
     width: 250px;
-    height: auto;
+    height: 270px;
+    margin-top: 15px;
     padding: 0px;
     border-radius: 3px;
     padding: 30px;

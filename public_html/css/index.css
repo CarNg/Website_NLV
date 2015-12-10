@@ -69,50 +69,90 @@ body{
 
 #gdImage{
     position: relative;
-    float: left;
-    width: 310px;
-    height: 310px;
+    width: 630px;
+    height: 70px;
+    margin: 0px auto 0px auto;
     padding: 0px;
-    margin: 0px 15px 0px 0px;
-    background-image: url(../images/bkd_index_games.jpg);
-    background-size: 310px, 310px;
+    background-image: url(../images/bkd_index_games.png);
+    background-size: 630px, 70px;
     border-radius: 3px;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 #gdImage:hover{
-    box-shadow: 0 0 10px #1bd6d8;
+    background-image: url(../images/bkd_index_games_text.png);
+    height: 185.5px;
+    background-size: 630px, 185.5px;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 #vmImage{
     position: relative;
-    float: left;
-    width: 310px;
-    height: 310px;
-    background-image: url(../images/bkd_index_visuals.jpg);
-    background-size: 310px, 310px;
+    width: 630px;
+    height: 70px;
+    margin: 15px auto 0px auto;
+    background-image: url(../images/bkd_index_visuals.png);
+    background-size: 630px, 70px;
     border-radius: 3px;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 #vmImage:hover{
-    box-shadow: 0 0 10px #e014bc;
+    background-image: url(../images/bkd_index_visuals_text.png);
+    height: 185.5px;
+    background-size: 630px, 185.5px;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 #blogImage {
     position: relative;
-    float: left;
-    width: 310px;
-    height: 310px;
-    margin: 0px 15px 0px 0px;
+    width: 630px;
+    height: 70px;
+    margin: 15px auto 0px auto;
     background-image: url(../images/bkd_index_blog.png);
-    background-size: 310px, 310px;
+    background-size: 630px, 70px;
     border-radius: 3px;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 #blogImage:hover{
-    box-shadow: 0 0 10px white;
+    background-image: url(../images/bkd_index_blog_text.png);
+    height: 185.5px;
+    background-size: 630px, 185.5px;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
-.overlay{
+/*.overlay{
     position: absolute;
     width: 250px;
     height: 250px;
@@ -142,34 +182,17 @@ body{
 
 .overlay p{
     text-shadow: none;
-}
+}*/
 
 #projects{
     position: relative;
-    float: left;
-    width: 575px;
-    height: 270px;
-    margin-top: 15px;
+    width: 560px;
+    height: auto;
+    margin: 15px auto 0px auto;
     padding: 30px;
-    border-radius: 3px;
-    padding: 30px;
+    border-radius: 5px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 15.7px;
     color: #fff2f2;
-    background: rgba(0, 0, 0, 0.7);
-}
-
-#thanks{
-    position: relative;
-    float: right;
-    width: 250px;
-    height: 270px;
-    margin-top: 15px;
-    padding: 0px;
-    border-radius: 3px;
-    padding: 30px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 15.7px;
-    color: #fff2f2;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.6);
 }

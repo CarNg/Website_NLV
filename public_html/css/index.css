@@ -40,7 +40,7 @@ a.visualLinks:active {
     text-decoration: underline;
 }
 
-a.blogLinks:link {
+/*a.blogLinks:link {
     color: #fff2f2;
     text-decoration: underline;
 }
@@ -53,7 +53,7 @@ a.blogLinks:hover {
     color: white;
     text-shadow: 0px 0px 5px white;
     text-decoration: none;
-}
+}*/
 
 a.gameLinks:active {
     text-decoration: underline;
@@ -67,7 +67,75 @@ body{
     background-size: cover;
 }
 
-#gdImage{
+section{
+    position: relative;
+    float: right;
+    height: auto;
+    width: 370px;
+    margin: 30px;
+}
+
+.cyanBorder{
+    overflow: hidden;
+    max-height: 500px;
+    max-width: 960px;
+    height: auto;
+    width: 960px;
+    margin-bottom: 10px;
+    padding-left: 0px;
+    border-radius: 3px;
+    background-image: url('../images/bkd_game_sections.png');
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+    color: #fff2f2;
+}
+
+.magentaBorder{
+    margin-bottom: 10px;
+    height: auto;
+    width: 960px;
+    max-height: 700px;
+    max-width: 960px;
+    border-radius: 3px;
+    overflow: hidden;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+    color: #fff2f2;
+    background-image: url("../images/bkd_visual_sections.png");
+}
+
+.video{
+    position: relative;
+    float: right;
+    margin: 30px 0px 30px 30px;
+}
+
+.thumbnail{
+    position: relative;
+    float: right;
+    background-position: 0px -330px;
+    border-radius: 3px;
+    height: 280px;
+    width: 500px;
+    margin: 30px 0px 30px 30px;
+    -webkit-transition: background-position 0.5s ease-in-out;
+    -moz-transition: background-position 0.5s ease-in-out;
+    -ms-transition: background-position 0.5s ease-in-out;
+    -o-transition: background-position 0.5s ease-in-out;
+    transition: background-position 0.5s ease-in-out;
+}
+
+/*#gdImage{
     position: relative;
     width: 630px;
     height: 70px;
@@ -152,7 +220,7 @@ body{
     transition: all 0.5s ease-in-out;
 }
 
-/*.overlay{
+.overlay{
     position: absolute;
     width: 250px;
     height: 250px;
@@ -182,7 +250,7 @@ body{
 
 .overlay p{
     text-shadow: none;
-}*/
+}
 
 #projects{
     position: relative;
@@ -196,3 +264,4 @@ body{
     color: #fff2f2;
     background: rgba(0, 0, 0, 0.6);
 }
+*/

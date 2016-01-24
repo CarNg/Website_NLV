@@ -41,6 +41,7 @@ body{
 }
 
 #email{
+    vertical-align: middle;
     position: relative;
     float: left;
     width: 415px;

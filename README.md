@@ -1,5 +1,3 @@
-# NightLightVisuals
+# 2015 Night Light Visuals Portfolio
 
-New and complete redesign of Night Light Visuals portfolio site.
-
-Cross browser tested, working on a mobile friendly version of the site.
+2015 Redesign of Night Light Visuals portfolio for a full responsive site.
